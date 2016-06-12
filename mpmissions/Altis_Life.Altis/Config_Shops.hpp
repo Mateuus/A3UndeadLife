@@ -324,14 +324,14 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-			{ "FirstAidKit", "", 500, { "", "", -1 } },
-			{ "ToolKit", "", 500, { "", "", -1 } },
-			{ "ItemGPS", "", 50, { "", "", -1 } },
-			{ "ItemMap", "", 50, { "", "", -1 } },
+			{ "FirstAidKit", "Bolsa de sangue", 500, { "", "", -1 } },
+			{ "ToolKit", "Estojo de ferramentas", 500, { "", "", -1 } },
+			{ "ItemGPS", "GPS", 50, { "", "", -1 } },
+			{ "ItemMap", "Mapa", 50, { "", "", -1 } },
 			{ "ItemRadio", "", 50, { "", "", -1 } },
-			{ "ItemCompass", "", 50, { "", "", -1 } },
+			{ "ItemCompass", "Bússola", 50, { "", "", -1 } },
 			{ "MineDetector", "", 10000, { "", "", -1 } },
-            { "Binocular", "", 1000, { "", "", -1 } },
+            { "Binocular", "Binoculos", 1000, { "", "", -1 } },
 			{ "Rangefinder", "",5000, { "", "", -1 } },
             { "NVGoggles_OPFOR", "", 1000, { "", "", -1 } },
             { "Chemlight_blue", "", 1000, { "", "", -1 } },

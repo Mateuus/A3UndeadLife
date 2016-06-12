@@ -94521,7 +94521,7 @@ class Mission
 		{
 			position[]={3405.855,1.9554151,12895.665};
 			name="fish_market_1";
-			text="Fish Market";
+			text="Mercado de Peixe";
 			type="mil_box";
 			colorName="ColorGreen";
 		};
@@ -94736,7 +94736,7 @@ class Mission
 		{
 			position[]={169.09892,-0.026115492,14814.396};
 			name="Carshop";
-			text="Car Shop";
+			text="Lojas de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 		};
@@ -94919,7 +94919,7 @@ class Mission
 		{
 			position[]={3636.8794,10.158556,13091.064};
 			name="car1_1";
-			text="Car Shop";
+			text="Loja de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 			angle=-356.78369;
@@ -95206,7 +95206,7 @@ class Mission
 		{
 			position[]={25839.416,20.529449,21444.084};
 			name="car1_1";
-			text="Car Shop";
+			text="Loja de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 		};
@@ -96211,7 +96211,7 @@ class Mission
 		{
 			position[]={16980.324,16.790422,12851.284};
 			name="car1_1_1";
-			text="Car Shop";
+			text="Loja de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 		};
@@ -96219,7 +96219,7 @@ class Mission
 		{
 			position[]={14030.082,25.51672,18757.953};
 			name="car1_1_1_1";
-			text="Car Shop";
+			text="Loja de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 		};
@@ -96262,7 +96262,7 @@ class Mission
 		{
 			position[]={12671.404,3.2703502,14237.232};
 			name="car1_1_1_2";
-			text="Car Shop";
+			text="Loja de Carros";
 			type="c_car";
 			colorName="ColorWhite";
 		};
@@ -97626,7 +97626,7 @@ class Mission
 		{
 			position[]={25952.359,17.285719,21383.348};
 			name="PaintBallMarker";
-			text="Black Market";
+			text="Mercado Negro";
 			type="o_armor";
 			colorName="ColorBlack";
 			a=0.80000001;
@@ -97646,7 +97646,7 @@ class Mission
 		{
 			position[]={3661.1069,10.176666,13150.078};
 			name="Gym";
-			text="Fitness Training";
+			text="Academia";
 			type="mil_dot";
 			colorName="ColorBlue";
 			a=0.69999999;
@@ -97656,7 +97656,7 @@ class Mission
 		{
 			position[]={14049.329,26.328384,18731.77};
 			name="Gym_1";
-			text="Fitness Training";
+			text="Academia";
 			type="mil_dot";
 			colorName="ColorBlue";
 			a=0.69999999;
@@ -97666,7 +97666,7 @@ class Mission
 		{
 			position[]={16707.398,11.112002,12512.834};
 			name="Gym_2";
-			text="Fitness Training";
+			text="Academia";
 			type="mil_dot";
 			colorName="ColorBlue";
 			a=0.69999999;
@@ -97676,7 +97676,7 @@ class Mission
 		{
 			position[]={25791.408,19.743721,21343.686};
 			name="Gym_1_1";
-			text="Fitness Training";
+			text="Academia";
 			type="mil_dot";
 			colorName="ColorBlue";
 			a=0.69999999;
@@ -97726,7 +97726,7 @@ class Mission
 		{
 			position[]={17537.129,3.1356764,18938.357};
 			name="Fish1";
-			text="Fish Market";
+			text="Mercado de Peixe";
 			type="mil_circle";
 			colorName="ColorBlue";
 			a=0.5;
@@ -97736,7 +97736,7 @@ class Mission
 		{
 			position[]={2963.832,2.1017761,12570.694};
 			name="Fish1_1";
-			text="Fish Market";
+			text="Mercado de Peixe";
 			type="mil_circle";
 			colorName="ColorBlue";
 			a=0.5;
@@ -97746,7 +97746,7 @@ class Mission
 		{
 			position[]={16591.139,2.2940576,12421.545};
 			name="Fish1_3";
-			text="Fish Market";
+			text="Mercado de Peixe";
 			type="mil_circle";
 			colorName="ColorBlue";
 			a=0.5;
@@ -97869,7 +97869,7 @@ class Mission
 		{
 			position[]={17029.486,16.025541,12796.324};
 			name="BlckMarket";
-			text="Black market";
+			text="Mercado Negro";
 			type="loc_Power";
 			colorName="ColorBlack";
 		};
@@ -97914,7 +97914,7 @@ class Mission
 		{
 			position[]={12700.384,1.8948779,14222.443};
 			name="Fish1_2_1";
-			text="Fish Market";
+			text="Mercado de Peixe";
 			type="mil_circle";
 			colorName="ColorBlue";
 			a=0.5;
@@ -97924,7 +97924,7 @@ class Mission
 		{
 			position[]={18372.244,48.759487,15544.27};
 			name="slave_trader_marker";
-			text="Human Trafficking";
+			text="Tráfico Humano";
 			markerType="ELLIPSE";
 			type="mil_circle";
 			colorName="ColorRed";
@@ -97936,7 +97936,7 @@ class Mission
 		{
 			position[]={18372.455,48.761814,15544.745};
 			name="Slavemark";
-			text="Human Trafficking";
+			text="Tráfico Humano";
 			type="mil_start";
 			colorName="ColorRed";
 			a=0.5;
