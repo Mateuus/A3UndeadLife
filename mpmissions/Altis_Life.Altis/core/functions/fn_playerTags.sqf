@@ -48,9 +48,9 @@ SUB(_units,[player]);
 					case 4: {"icons\cop\sergeant.paa"};
 					case 5: {"icons\cop\lieutenant.paa"};
 					case 6: {"icons\cop\captain.paa"};
-					case 7: {"icons\cop\undersheriff.paa"};
-					case 8: {"icons\cop\sheriff.paa"};
-					case 9: {"icons\cop\sheriff.paa"};
+					case 7: {"icons\cop\major.paa"};
+					case 8: {"icons\cop\tencoronel.paa"};
+					case 9: {"icons\cop\coronel.paa"};
 
 					default {"icons\cop\1.paa"};
 					},
