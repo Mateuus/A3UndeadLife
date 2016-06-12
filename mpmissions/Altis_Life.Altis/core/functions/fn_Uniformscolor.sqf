@@ -48,7 +48,7 @@ if(playerSide == civilian) then {
 	player setObjectTextureGlobal [0, "textures\vip\2.paa"]; //Level 2 Vip
 	}else if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 1)) then {
 	player setObjectTextureGlobal [0, "textures\vip\1.paa"]; //Level 1 Vip
-	}
+	};
 	
 	if (backpack player == "B_Carryall_oucamo") then {
     	(unitbackpack player) setObjectTextureGlobal [0, ""]; 
