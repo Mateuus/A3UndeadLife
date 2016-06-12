@@ -22,10 +22,10 @@ _text2 = _display displayCtrl 1102;
 
 _message = "";
 _message = _message + "<t align='center' size='7' shadow='0'><img image='textures\intro.paa' /></t><br /><br />";
-_message = _message + "Bem-vindo ao <a href='http://www.undeadbrasil.com/forum/' color='#FF5A00'>undeadbrasil.com</a> Servidor voltador para Role-Play!<br /><br />";
+_message = _message + "Bem-vindo ao <a href='http://www.undeadbrasil.com/forum/' color='#FF5A00'>undeadbrasil.com</a> Servidor voltado para Role-Play!<br /><br />";
 _message = _message + "Este servidor é voltado para roleplay entao antes de spawnar esteja ciente que você leu as regras em <a href= 'http://www.undeadbrasil.com/forum' color='#FF5A00'>Undead Brasil Regras</a> Caso nao leia as regras e cometer infração será banido!!<br /><br />";
 _message = _message + "Undead Brasil Servidores está disposto a garantir sua diversao no servidor, para melhor experiência entre em nosso teamspeak!<br />";
-_message = _message + "Bom jogo !,<br />";
+_message = _message + "Bom jogo !<br />";
 _message = _message + "<t size='3' shadow='5'><img image='textures\signature.paa' /></t>";
 
 //Fill only the first text
