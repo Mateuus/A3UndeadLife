@@ -18,3 +18,4 @@
 [03:08:54 --2:00] [Thread 2140531541] extDB: DB_CUSTOM_V5: Error Exception: SQL: deleteOldHouses
 [03:08:54 --2:00] [Thread 1451012640] extDB: DB_CUSTOM_V5: Error StatementException: MySQL: [MySQL]: [Comment]: mysql_stmt_execute error	[mysql_stmt_error]: Incorrect number of arguments for PROCEDURE altislife.deleteOldGangs; expected 1, got 0	[mysql_stmt_errno]: 1318	[mysql_stmt_sqlstate]: 42000	[statemnt]: CALL deleteOldGangs;
 [03:08:54 --2:00] [Thread 1451012640] extDB: DB_CUSTOM_V5: Error Exception: SQL: deleteOldGangs
+[03:57:57 --2:00] [Thread 2852018148] extDB: Stopping ...

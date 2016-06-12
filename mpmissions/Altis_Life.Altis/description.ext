@@ -1,6 +1,6 @@
-author = "Tonic, MeccaDevTeam";
-onLoadName = "Mecca AltisLife v2.0";
-onLoadMission = "An RPG game mode developed by Tonic, edited by MeccaDevTeam";
+author = "Tonic, Mateuus, Tuhalinha, Lopes, Neto, UndeadDevTeam";
+onLoadName = "Undead Brasil AltisLife v3.0";
+onLoadMission = "Um modo de jogo RPG desenvolvido pelo Tonic, editado por UndeadDevTeam";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;

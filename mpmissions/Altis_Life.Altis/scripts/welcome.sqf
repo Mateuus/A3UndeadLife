@@ -6,24 +6,24 @@
 */
 _onScreenTime = 4.1;
 
-_role1 = "Hello!";
-_role1names = ["Welcome to", "Mecca AltisLife"];
+_role1 = "Olá!";
+_role1names = ["Bem vindo ao", "Undead Brasil AltisLife"];
 _role2 = "Teamspeak";
-_role2names = ["104.227.2.10"];
+_role2names = ["ts3.undeadbrasil.com"];
 _role3 = "Website";
-_role3names = ["meccagaming.co"];
-_role4 = "Built from Altis Life 4.0.0";
-_role4names = ["by the MeccaDevTeam"];
+_role3names = ["undeadbrasil.com"];
+_role4 = "Construído a partir da Altis Life 4.4.0";
+_role4names = ["by the Undead Brasil"];
 _role5 = "Developers";
-_role5names = ["Derek","UnNamed","Hohum"];
+_role5names = ["Mateuus","Tuhalinha","Lopes","Neto"];
 _role6 = "Admins";
-_role6names = ["Forsaken","Crusader","Hohum"];
-_role7 = "Moderators";
-_role7names = ["TOAD","NightStalker","Krack"];
-_role8 = "Enjoy your stay";
-_role8names = ["Have fun and follow the rules<br/>posted on our website<br/>"];
-_role9 = "Special thanks to";
-_role9names = ["All you guys that join us daily!<br/>Thank you!"];
+_role6names = ["Lopes","Neto"];
+_role7 = "Moderadores";
+_role7names = ["VAGAS ABERTAS"];
+_role8 = "Aproveite sua estadia";
+_role8names = ["Divirta-se e siga as regras<br/>postado em nosso forum<br/>"];
+_role9 = "Agradecimentos especiais para";
+_role9names = ["A Todos vocês que nos unem diária!<br/>Obrigado!"];
 
 {
 	sleep 2;
