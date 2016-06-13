@@ -31,3 +31,6 @@
 /mpmissions/Altis_Life.Altis/textures/signs/Thumbs.db
 /config
 /@extDB/extdb/logs
+/TADST/altislife/Users
+*.rpt
+*.log
