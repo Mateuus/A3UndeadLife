@@ -51,6 +51,8 @@ if((str(player) in ["civ_9999","civ_99999"])) then {
 
 player setVariable["rprank",(FETCH_CONST(life_rpLevel)),true];
 
+player setVariable["viprank",(FETCH_CONST(life_donator)),true];
+
 //[[],"life_fnc_wantedSyncList",false, false] spawn life_fnc_MP;
 
 [] spawn {
