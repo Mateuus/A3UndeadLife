@@ -55,6 +55,11 @@
 #define mohawk 1400000
 
 #define pstrider 150000
+
+#define huntervip4 300000
+
+
+
 /* End Vehicle Prices */
 
 class CarShops {
@@ -72,6 +77,8 @@ class CarShops {
 			{ "C_Offroad_01_F", poffroad, "driver" },
 			{ "C_SUV_01_F", psuv, "driver" },
 			{ "C_Hatchback_01_sport_F", phatchbacksport, "driver" }
+			{ "I_MRAP_03_F", pstrider, "" , { "life_donator", 5 } }
+			{ "I_MRAP_03_F", "Hunter VIP 5", huntervip4, { "life_donator", "SCALAR", 4 } }
 		};
 	};
 
