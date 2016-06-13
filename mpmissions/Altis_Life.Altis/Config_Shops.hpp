@@ -51,6 +51,120 @@ class WeaponShops {
             { "optic_Aco", "Aco", 2500, { "", "", -1 } }
         };
     };
+	
+	
+	class bronze {
+        name = "Billy Joe's Firearms";
+        side = "civ";
+        license = "rebel";
+        level = 1;
+        msg = "";
+        items[] = {
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 1 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 1 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 1 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 1 } }
+        };
+    };
+	
+	class silver {
+        name = "Billy Joe's Firearms";
+        side = "civ";
+        license = "rebel";
+        level = 2;
+        msg = "";
+        items[] = {
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 2 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 2 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 2 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 2 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 2 } }
+        };
+    };
+	
+	class gold {
+        name = "Billy Joe's Firearms";
+        side = "civ";
+        license = "rebel";
+        level = 3;
+        msg = "";
+        items[] = {
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 3 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 3 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 3 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 3 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 3 } }
+        };
+    };
+	
+	class platinum {
+        name = "Billy Joe's Firearms";
+        side = "civ";
+        license = "rebel";
+        level = 4;
+        msg = "";
+        items[] = {
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 4 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 4 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 4 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 4 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 4 } }
+        };
+    };
+	
     class rebel {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
