@@ -56,7 +56,7 @@ class WeaponShops {
 	class bronze {
         name = "Billy Joe's Firearms";
         side = "civ";
-        license = "rebel";
+        license = "";
         level = 1;
         msg = "";
         items[] = {
@@ -84,7 +84,7 @@ class WeaponShops {
 	class silver {
         name = "Billy Joe's Firearms";
         side = "civ";
-        license = "rebel";
+        license = "";
         level = 2;
         msg = "";
         items[] = {
@@ -112,7 +112,7 @@ class WeaponShops {
 	class gold {
         name = "Billy Joe's Firearms";
         side = "civ";
-        license = "rebel";
+        license = "";
         level = 3;
         msg = "";
         items[] = {
@@ -140,7 +140,7 @@ class WeaponShops {
 	class platinum {
         name = "Billy Joe's Firearms";
         side = "civ";
-        license = "rebel";
+        license = "";
         level = 4;
         msg = "";
         items[] = {

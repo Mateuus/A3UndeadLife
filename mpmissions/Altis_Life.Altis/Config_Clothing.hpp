@@ -103,6 +103,386 @@ class Clothing {
 			{ "B_Carryall_oucamo", "UnNamed's Backpack", 20000, { "life_donator", "SCALAR", 3 } }
 		};
 	};
+	
+	class Roupas Bronze {
+		title = "STR_Shops_C_Bruce";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_blue", "Undead Brasil Roupa", 250, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_burgundy", "Roupa Burgundy", 275, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_redwhite", "Roupa Vermelha e Branca", 150, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_salmon", "Roupa Salmao", 175,{ "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poor_2", "Roupa de Pedreiro", 250,{ "life_donator", "SCALAR", 1 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila I", 650, { "life_donator", "SCALAR", 1 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila II", 735, { "life_donator", "SCALAR", 1 } },
+			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "life_donator", "SCALAR", 1 } },
+			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "life_donator", "SCALAR", 1 } },
+			{ "U_NikosBody", "Roupa de Malandro VIP", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "U_I_CombatUniform", "Roupa Padrão VIP", 5000, { "life_donator", "SCALAR", 1 } },
+			{ "U_B_Protagonist_VR", "Roupa VIP Azul", 15000, { "life_donator", "SCALAR", 1 } },
+			{ "U_O_Protagonist_VR", "Roupa VIP Vermelha", 15000, { "life_donator", "SCALAR", 1 } },
+			{ "U_I_Protagonist_VR", "Roupa VIP Verde", 15000, { "life_donator", "SCALAR", 1 } }
+
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_camo", "Camo Bandanna", 120, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_surfer", "Surfer Bandanna", 130, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_cbr", "", 165, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_surfer", "", 135, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_khk", "Khaki Bandanna", 145, { "life_donator", "SCALAR", 1 } },
+			{ "H_Bandanna_sgg", "Sage Bandanna", 160, { "life_donator", "SCALAR", 1 } },
+			{ "H_StrawHat", "Straw Fedora", 225, { "life_donator", "SCALAR", 1 } },
+			{ "H_BandMask_blk", "Hat & Bandanna", 300, { "life_donator", "SCALAR", 1 } },
+			{ "H_Booniehat_tan", "", 425, { "life_donator", "SCALAR", 1 } },
+			{ "H_Hat_blue", "", 310, { "life_donator", "SCALAR", 1 } },
+			{ "H_Hat_brown", "", 276, { "life_donator", "SCALAR", 1 } },
+			{ "H_Hat_checker", "", 340, { "life_donator", "SCALAR", 1 } },
+			{ "H_Hat_grey", "", 280, { "life_donator", "SCALAR", 1 } },
+			{ "H_Hat_tan", "", 265, { "life_donator", "SCALAR", 1 } },
+			{ "H_Cap_blu", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Cap_grn", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Cap_grn_BI", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Cap_oli", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_khk", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_tan", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_olive_hs", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_khk", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_tan", "", 1500, { "life_donator", "SCALAR", 1 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "life_donator", "SCALAR", 1 } },
+			{ "G_Shades_Black", "", 205, { "life_donator", "SCALAR", 1 } },
+			{ "G_Shades_Blue", "", 200, { "life_donator", "SCALAR", 1 } },
+			{ "G_Sport_Blackred", "", 200, { "life_donator", "SCALAR", 1 } },
+			{ "G_Sport_Checkered", "", 200, { "life_donator", "SCALAR", 1 } },
+			{ "G_Sport_Blackyellow", "", 200, { "life_donator", "SCALAR", 1 } },
+			{ "G_Sport_BlackWhite", "", 200, { "life_donator", "SCALAR", 1 } },
+			{ "G_Squares", "", 100, { "life_donator", "SCALAR", 1 } },
+			{ "G_Aviator", "", 1000, { "life_donator", "SCALAR", 1 } },
+			{ "G_Lady_Mirror", "", 500, { "life_donator", "SCALAR", 1 } },
+			{ "G_Lady_Dark", "", 500, { "life_donator", "SCALAR", 1 } },
+			{ "G_Lady_Blue", "", 500, { "life_donator", "SCALAR", 1 } },
+			{ "G_Lowprofile", "", 300, { "life_donator", "SCALAR", 1 } },
+			{ "G_Combat", "", 5500, { "life_donator", "SCALAR", 1 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "life_donator", "SCALAR", 1 } },
+			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 1 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 13500, { "life_donator", "SCALAR", 1 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 19000, { "life_donator", "SCALAR", 1 } },
+			{ "V_PlateCarrierH_CTRG", "", 25000, { "life_donator", "SCALAR", 1 } },
+			{ "V_PlateCarrierGL_rgr", "", 34000, { "life_donator", "SCALAR", 1 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "life_donator", "SCALAR", 1 } },
+			{ "B_AssaultPack_cbr", "", 750, { "life_donator", "SCALAR", 1 } },
+			{ "B_Kitbag_mcamo", "", 950, { "life_donator", "SCALAR", 1 } },
+			{ "B_TacticalPack_oli", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "B_FieldPack_ocamo", "", 1700, { "life_donator", "SCALAR", 1 } },
+			{ "B_Bergen_sgg", "", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "B_Kitbag_cbr", "", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "B_Carryall_oli", "", 4500, { "life_donator", "SCALAR", 1 } },
+			{ "B_Carryall_khk", "", 4500, { "life_donator", "SCALAR", 1 } },
+			{ "B_Carryall_oucamo", "UnNamed's Backpack", 20000, { "life_donator", "SCALAR", 1 } }
+		};
+	};
+	
+	class Roupas Silver {
+		title = "STR_Shops_C_Bruce";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_blue", "Undead Brasil Roupa", 250, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_burgundy", "Roupa Burgundy", 275, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_redwhite", "Roupa Vermelha e Branca", 150, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_salmon", "Roupa Salmao", 175,{ "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_Poor_2", "Roupa de Pedreiro", 250,{ "life_donator", "SCALAR", 2 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila I", 650, { "life_donator", "SCALAR", 2 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila II", 735, { "life_donator", "SCALAR", 2 } },
+			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "life_donator", "SCALAR", 2 } },
+			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "life_donator", "SCALAR", 2 } },
+			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "life_donator", "SCALAR", 2 } },
+			{ "U_NikosBody", "Roupa de Malandro VIP", 2500, { "life_donator", "SCALAR", 2 } },
+			{ "U_I_CombatUniform", "Roupa Padrão VIP", 5000, { "life_donator", "SCALAR", 2 } },
+			{ "U_B_Protagonist_VR", "Roupa VIP Azul", 15000, { "life_donator", "SCALAR", 2 } },
+			{ "U_O_Protagonist_VR", "Roupa VIP Vermelha", 15000, { "life_donator", "SCALAR", 2 } },
+			{ "U_I_Protagonist_VR", "Roupa VIP Verde", 15000, { "life_donator", "SCALAR", 2 } }
+
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_camo", "Camo Bandanna", 120, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_surfer", "Surfer Bandanna", 130, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_cbr", "", 165, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_surfer", "", 135, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_khk", "Khaki Bandanna", 145, { "life_donator", "SCALAR", 2 } },
+			{ "H_Bandanna_sgg", "Sage Bandanna", 160, { "life_donator", "SCALAR", 2 } },
+			{ "H_StrawHat", "Straw Fedora", 225, { "life_donator", "SCALAR", 2 } },
+			{ "H_BandMask_blk", "Hat & Bandanna", 300, { "life_donator", "SCALAR", 2 } },
+			{ "H_Booniehat_tan", "", 425, { "life_donator", "SCALAR", 2 } },
+			{ "H_Hat_blue", "", 310, { "life_donator", "SCALAR", 2 } },
+			{ "H_Hat_brown", "", 276, { "life_donator", "SCALAR", 2 } },
+			{ "H_Hat_checker", "", 340, { "life_donator", "SCALAR", 2 } },
+			{ "H_Hat_grey", "", 280, { "life_donator", "SCALAR", 2 } },
+			{ "H_Hat_tan", "", 265, { "life_donator", "SCALAR", 2 } },
+			{ "H_Cap_blu", "", 150, { "life_donator", "SCALAR", 2 } },
+			{ "H_Cap_grn", "", 150, { "life_donator", "SCALAR", 2 } },
+			{ "H_Cap_grn_BI", "", 150, { "life_donator", "SCALAR", 2 } },
+			{ "H_Cap_oli", "", 150, { "life_donator", "SCALAR", 2 } },
+			{ "H_Shemag_khk", "", 1500, { "life_donator", "SCALAR", 2 } },
+			{ "H_Shemag_tan", "", 1500, { "life_donator", "SCALAR", 2 } },
+			{ "H_Shemag_olive_hs", "", 1500, { "life_donator", "SCALAR", 2 } },
+			{ "H_ShemagOpen_khk", "", 1500, { "life_donator", "SCALAR", 2 } },
+			{ "H_ShemagOpen_tan", "", 1500, { "life_donator", "SCALAR", 2 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "life_donator", "SCALAR", 2 } },
+			{ "G_Shades_Black", "", 205, { "life_donator", "SCALAR", 2 } },
+			{ "G_Shades_Blue", "", 200, { "life_donator", "SCALAR", 2 } },
+			{ "G_Sport_Blackred", "", 200, { "life_donator", "SCALAR", 2 } },
+			{ "G_Sport_Checkered", "", 200, { "life_donator", "SCALAR", 2 } },
+			{ "G_Sport_Blackyellow", "", 200, { "life_donator", "SCALAR", 2 } },
+			{ "G_Sport_BlackWhite", "", 200, { "life_donator", "SCALAR", 2 } },
+			{ "G_Squares", "", 100, { "life_donator", "SCALAR", 2 } },
+			{ "G_Aviator", "", 1000, { "life_donator", "SCALAR", 2 } },
+			{ "G_Lady_Mirror", "", 500, { "life_donator", "SCALAR", 2 } },
+			{ "G_Lady_Dark", "", 500, { "life_donator", "SCALAR", 2 } },
+			{ "G_Lady_Blue", "", 500, { "life_donator", "SCALAR", 2 } },
+			{ "G_Lowprofile", "", 300, { "life_donator", "SCALAR", 2 } },
+			{ "G_Combat", "", 5500, { "life_donator", "SCALAR", 2 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "life_donator", "SCALAR", 2 } },
+			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 13500, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 19000, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierH_CTRG", "", 25000, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierGL_rgr", "", 34000, { "life_donator", "SCALAR", 2 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "life_donator", "SCALAR", 2 } },
+			{ "B_AssaultPack_cbr", "", 750, { "life_donator", "SCALAR", 2 } },
+			{ "B_Kitbag_mcamo", "", 950, { "life_donator", "SCALAR", 2 } },
+			{ "B_TacticalPack_oli", "", 1500, { "life_donator", "SCALAR", 2 } },
+			{ "B_FieldPack_ocamo", "", 1700, { "life_donator", "SCALAR", 2 } },
+			{ "B_Bergen_sgg", "", 2500, { "life_donator", "SCALAR", 2 } },
+			{ "B_Kitbag_cbr", "", 2500, { "life_donator", "SCALAR", 2 } },
+			{ "B_Carryall_oli", "", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "B_Carryall_khk", "", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "B_Carryall_oucamo", "UnNamed's Backpack", 20000, { "life_donator", "SCALAR", 2 } }
+		};
+	};
+	
+	class Roupas Gold {
+		title = "STR_Shops_C_Bruce";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poloshirt_blue", "Undead Brasil Roupa", 250, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poloshirt_burgundy", "Roupa Burgundy", 275, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poloshirt_redwhite", "Roupa Vermelha e Branca", 150, { "life_donator", "SCALAR", 1 } },
+			{ "U_C_Poloshirt_salmon", "Roupa Salmao", 175,{ "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_Poor_2", "Roupa de Pedreiro", 250,{ "life_donator", "SCALAR", 3 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila I", 650, { "life_donator", "SCALAR", 3 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila II", 735, { "life_donator", "SCALAR", 3 } },
+			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "life_donator", "SCALAR", 3 } },
+			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "life_donator", "SCALAR", 3 } },
+			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "life_donator", "SCALAR", 3 } },
+			{ "U_NikosBody", "Roupa de Malandro VIP", 2500, { "life_donator", "SCALAR", 3 } },
+			{ "U_I_CombatUniform", "Roupa Padrão VIP", 5000, { "life_donator", "SCALAR", 3 } },
+			{ "U_B_Protagonist_VR", "Roupa VIP Azul", 15000, { "life_donator", "SCALAR", 3 } },
+			{ "U_O_Protagonist_VR", "Roupa VIP Vermelha", 15000, { "life_donator", "SCALAR", 3 } },
+			{ "U_I_Protagonist_VR", "Roupa VIP Verde", 15000, { "life_donator", "SCALAR", 3 } }
+
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_camo", "Camo Bandanna", 120, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_surfer", "Surfer Bandanna", 130, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_cbr", "", 165, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_surfer", "", 135, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_khk", "Khaki Bandanna", 145, { "life_donator", "SCALAR", 3 } },
+			{ "H_Bandanna_sgg", "Sage Bandanna", 160, { "life_donator", "SCALAR", 3 } },
+			{ "H_StrawHat", "Straw Fedora", 225, { "life_donator", "SCALAR", 3 } },
+			{ "H_BandMask_blk", "Hat & Bandanna", 300, { "life_donator", "SCALAR", 3 } },
+			{ "H_Booniehat_tan", "", 425, { "life_donator", "SCALAR", 3 } },
+			{ "H_Hat_blue", "", 310, { "life_donator", "SCALAR", 3 } },
+			{ "H_Hat_brown", "", 276, { "life_donator", "SCALAR", 3 } },
+			{ "H_Hat_checker", "", 340, { "life_donator", "SCALAR", 3 } },
+			{ "H_Hat_grey", "", 280, { "life_donator", "SCALAR", 3 } },
+			{ "H_Hat_tan", "", 265, { "life_donator", "SCALAR", 3 } },
+			{ "H_Cap_blu", "", 150, { "life_donator", "SCALAR", 3 } },
+			{ "H_Cap_grn", "", 150, { "life_donator", "SCALAR", 3 } },
+			{ "H_Cap_grn_BI", "", 150, { "life_donator", "SCALAR", 3 } },
+			{ "H_Cap_oli", "", 150, { "life_donator", "SCALAR", 3 } },
+			{ "H_Shemag_khk", "", 1500, { "life_donator", "SCALAR", 3 } },
+			{ "H_Shemag_tan", "", 1500, { "life_donator", "SCALAR", 3 } },
+			{ "H_Shemag_olive_hs", "", 1500, { "life_donator", "SCALAR", 3 } },
+			{ "H_ShemagOpen_khk", "", 1500, { "life_donator", "SCALAR", 3 } },
+			{ "H_ShemagOpen_tan", "", 1500, { "life_donator", "SCALAR", 3 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "life_donator", "SCALAR", 3 } },
+			{ "G_Shades_Black", "", 205, { "life_donator", "SCALAR", 3 } },
+			{ "G_Shades_Blue", "", 200, { "life_donator", "SCALAR", 3 } },
+			{ "G_Sport_Blackred", "", 200, { "life_donator", "SCALAR", 3 } },
+			{ "G_Sport_Checkered", "", 200, { "life_donator", "SCALAR", 3 } },
+			{ "G_Sport_Blackyellow", "", 200, { "life_donator", "SCALAR", 3 } },
+			{ "G_Sport_BlackWhite", "", 200, { "life_donator", "SCALAR", 3 } },
+			{ "G_Squares", "", 100, { "life_donator", "SCALAR", 3 } },
+			{ "G_Aviator", "", 1000, { "life_donator", "SCALAR", 3 } },
+			{ "G_Lady_Mirror", "", 500, { "life_donator", "SCALAR", 3 } },
+			{ "G_Lady_Dark", "", 500, { "life_donator", "SCALAR", 3 } },
+			{ "G_Lady_Blue", "", 500, { "life_donator", "SCALAR", 3 } },
+			{ "G_Lowprofile", "", 300, { "life_donator", "SCALAR", 3 } },
+			{ "G_Combat", "", 5500, { "life_donator", "SCALAR", 3 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "life_donator", "SCALAR", 3 } },
+			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 13500, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 19000, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierH_CTRG", "", 25000, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierGL_rgr", "", 34000, { "life_donator", "SCALAR", 3 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "life_donator", "SCALAR", 3 } },
+			{ "B_AssaultPack_cbr", "", 750, { "life_donator", "SCALAR", 3 } },
+			{ "B_Kitbag_mcamo", "", 950, { "life_donator", "SCALAR", 3 } },
+			{ "B_TacticalPack_oli", "", 1500, { "life_donator", "SCALAR", 3 } },
+			{ "B_FieldPack_ocamo", "", 1700, { "life_donator", "SCALAR", 3 } },
+			{ "B_Bergen_sgg", "", 2500, { "life_donator", "SCALAR", 3 } },
+			{ "B_Kitbag_cbr", "", 2500, { "life_donator", "SCALAR", 3 } },
+			{ "B_Carryall_oli", "", 4500, { "life_donator", "SCALAR", 3 } },
+			{ "B_Carryall_khk", "", 4500, { "life_donator", "SCALAR", 3 } },
+			{ "B_Carryall_oucamo", "UnNamed's Backpack", 20000, { "life_donator", "SCALAR", 3 } }
+		};
+	};
+	
+	class Roupas Platinum {
+		title = "STR_Shops_C_Bruce";
+		license = "";
+		side = "civ";
+
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_blue", "Undead Brasil Roupa", 250, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_burgundy", "Roupa Burgundy", 275, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_redwhite", "Roupa Vermelha e Branca", 150, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_salmon", "Roupa Salmao", 175,{ "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_Poor_2", "Roupa de Pedreiro", 250,{ "life_donator", "SCALAR", 4 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila I", 650, { "life_donator", "SCALAR", 4 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila II", 735, { "life_donator", "SCALAR", 4 } },
+			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "life_donator", "SCALAR", 4 } },
+			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "life_donator", "SCALAR", 4 } },
+			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "life_donator", "SCALAR", 4 } },
+			{ "U_NikosBody", "Roupa de Malandro VIP", 2500, { "life_donator", "SCALAR", 4 } },
+			{ "U_I_CombatUniform", "Roupa Padrão VIP", 5000, { "life_donator", "SCALAR", 4 } },
+			{ "U_B_Protagonist_VR", "Roupa VIP Azul", 15000, { "life_donator", "SCALAR", 4 } },
+			{ "U_O_Protagonist_VR", "Roupa VIP Vermelha", 15000, { "life_donator", "SCALAR", 4 } },
+			{ "U_I_Protagonist_VR", "Roupa VIP Verde", 15000, { "life_donator", "SCALAR", 4 } }
+
+		};
+
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_camo", "Camo Bandanna", 120, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_surfer", "Surfer Bandanna", 130, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_gry", "Grey Bandanna", 150, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_cbr", "", 165, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_surfer", "", 135, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_khk", "Khaki Bandanna", 145, { "life_donator", "SCALAR", 4 } },
+			{ "H_Bandanna_sgg", "Sage Bandanna", 160, { "life_donator", "SCALAR", 4 } },
+			{ "H_StrawHat", "Straw Fedora", 225, { "life_donator", "SCALAR", 4 } },
+			{ "H_BandMask_blk", "Hat & Bandanna", 300, { "life_donator", "SCALAR", 4 } },
+			{ "H_Booniehat_tan", "", 425, { "life_donator", "SCALAR", 4 } },
+			{ "H_Hat_blue", "", 310, { "life_donator", "SCALAR", 4 } },
+			{ "H_Hat_brown", "", 276, { "life_donator", "SCALAR", 4 } },
+			{ "H_Hat_checker", "", 340, { "life_donator", "SCALAR", 4 } },
+			{ "H_Hat_grey", "", 280, { "life_donator", "SCALAR", 4 } },
+			{ "H_Hat_tan", "", 265, { "life_donator", "SCALAR", 4 } },
+			{ "H_Cap_blu", "", 150, { "life_donator", "SCALAR", 4 } },
+			{ "H_Cap_grn", "", 150, { "life_donator", "SCALAR", 4 } },
+			{ "H_Cap_grn_BI", "", 150, { "life_donator", "SCALAR", 4 } },
+			{ "H_Cap_oli", "", 150, { "life_donator", "SCALAR", 4 } },
+			{ "H_Shemag_khk", "", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "H_Shemag_tan", "", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "H_Shemag_olive_hs", "", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "H_ShemagOpen_khk", "", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "H_ShemagOpen_tan", "", 1500, { "life_donator", "SCALAR", 4 } }
+		};
+
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "life_donator", "SCALAR", 4 } },
+			{ "G_Shades_Black", "", 205, { "life_donator", "SCALAR", 4 } },
+			{ "G_Shades_Blue", "", 200, { "life_donator", "SCALAR", 4 } },
+			{ "G_Sport_Blackred", "", 200, { "life_donator", "SCALAR", 4 } },
+			{ "G_Sport_Checkered", "", 200, { "life_donator", "SCALAR", 4 } },
+			{ "G_Sport_Blackyellow", "", 200, { "life_donator", "SCALAR", 4 } },
+			{ "G_Sport_BlackWhite", "", 200, { "life_donator", "SCALAR", 4 } },
+			{ "G_Squares", "", 100, { "life_donator", "SCALAR", 4 } },
+			{ "G_Aviator", "", 1000, { "life_donator", "SCALAR", 4 } },
+			{ "G_Lady_Mirror", "", 500, { "life_donator", "SCALAR", 4 } },
+			{ "G_Lady_Dark", "", 500, { "life_donator", "SCALAR", 4 } },
+			{ "G_Lady_Blue", "", 500, { "life_donator", "SCALAR", 4 } },
+			{ "G_Lowprofile", "", 300, { "life_donator", "SCALAR", 4 } },
+			{ "G_Combat", "", 5500, { "life_donator", "SCALAR", 4 } }
+		};
+
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "life_donator", "SCALAR", 4 } },
+			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 13500, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 19000, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierH_CTRG", "", 25000, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierGL_rgr", "", 34000, { "life_donator", "SCALAR", 4 } }
+		};
+
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "life_donator", "SCALAR", 4 } },
+			{ "B_AssaultPack_cbr", "", 750, { "life_donator", "SCALAR", 4 } },
+			{ "B_Kitbag_mcamo", "", 950, { "life_donator", "SCALAR", 4 } },
+			{ "B_TacticalPack_oli", "", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "B_FieldPack_ocamo", "", 1700, { "life_donator", "SCALAR", 4 } },
+			{ "B_Bergen_sgg", "", 2500, { "life_donator", "SCALAR", 4 } },
+			{ "B_Kitbag_cbr", "", 2500, { "life_donator", "SCALAR", 4 } },
+			{ "B_Carryall_oli", "", 4500, { "life_donator", "SCALAR", 4 } },
+			{ "B_Carryall_khk", "", 4500, { "life_donator", "SCALAR", 4 } },
+			{ "B_Carryall_oucamo", "UnNamed's Backpack", 20000, { "life_donator", "SCALAR", 4 } }
+		};
+	};
 
 	class cop {
 		title = "STR_Shops_C_Police";
