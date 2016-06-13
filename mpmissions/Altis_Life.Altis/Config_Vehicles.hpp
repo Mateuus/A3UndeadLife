@@ -227,8 +227,8 @@ class CfgVehicles {
 	    vItemSpace = 150;
 	    price = pghosthawkcop;
 	     textures[] = {
-	        { "Swat", "cop", {
-                "textures\msthellcat.jpg",
+	        { "BOPE", "cop", {
+                "textures\hellcat.paa",
             } }
 	    };
 	};
