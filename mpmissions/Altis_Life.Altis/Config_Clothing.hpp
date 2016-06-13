@@ -57,11 +57,11 @@ class Clothing {
 			{ "H_Cap_grn", "", 150, { "", "", -1 } },
 			{ "H_Cap_grn_BI", "", 150, { "", "", -1 } },
 			{ "H_Cap_oli", "", 150, { "", "", -1 } },
-			{ "H_Shemag_khk", "", 150, { "life_donator", "SCALAR", 1 } },
-			{ "H_Shemag_tan", "", 150, { "life_donator", "SCALAR", 1 } },
-			{ "H_Shemag_olive_hs", "", 150, { "life_donator", "SCALAR", 1 } },
-			{ "H_ShemagOpen_khk", "", 150, { "life_donator", "SCALAR", 1 } },
-			{ "H_ShemagOpen_tan", "", 150, { "life_donator", "SCALAR", 1 } }
+			{ "H_Shemag_khk", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_tan", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_olive_hs", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_khk", "", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_tan", "", 1500, { "life_donator", "SCALAR", 1 } }
 		};
 
 		goggles[] = {
@@ -84,10 +84,10 @@ class Clothing {
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 1 } },
-			{ "V_PlateCarrierIA2_dgtl", "", 9500, { "life_donator", "SCALAR", 2 } },
-			{ "V_PlateCarrierIAGL_dgtl", "", 9500, { "life_donator", "SCALAR", 3 } },
-			{ "V_PlateCarrierH_CTRG", "", 9500, { "life_donator", "SCALAR", 4 } },
-			{ "V_PlateCarrierGL_rgr", "", 9500, { "life_donator", "SCALAR", 5 } }
+			{ "V_PlateCarrierIA2_dgtl", "", 13500, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 19000, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierH_CTRG", "", 25000, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierGL_rgr", "", 34000, { "life_donator", "SCALAR", 5 } }
 		};
 
 		backpacks[] = {
