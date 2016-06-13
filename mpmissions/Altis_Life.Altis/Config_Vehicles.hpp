@@ -77,7 +77,7 @@ class CarShops {
 			{ "C_Offroad_01_F", poffroad, "driver" },
 			{ "C_SUV_01_F", psuv, "driver" },
 			{ "C_Hatchback_01_sport_F", phatchbacksport, "driver" },
-			{ "I_MRAP_03_F", huntervip4, "driver" { "life_donator", "SCALAR", 4 } }
+			{ "I_MRAP_03_F", huntervip4, "driver", { "life_donator", "SCALAR", 4 } }
 		};
 	};
 
