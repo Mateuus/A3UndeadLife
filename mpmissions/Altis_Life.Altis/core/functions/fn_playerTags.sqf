@@ -43,23 +43,23 @@ SUB(_units,[player]);
 				//case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
 				
 				case (!isNil {(_x GVAR "viprank")} && playerSide == civilian): {format["<img image='%1' size='1.5'></img> <t size='1.35'>%2</t><br/><t size='0.8'>[%3]</t>",switch ((_x GVAR "viprank")) do {
-					case 1: {"icons\cop\cadet.paa"};
-					case 2: {"icons\cop\deputy.paa"};
-					case 3: {"icons\cop\corporal.paa"};
-					case 4: {"icons\cop\sergeant.paa"};
-					case 5: {"icons\cop\lieutenant.paa"};
+					case 1: {"icons\vip\bronze.paa"};
+					case 2: {"icons\vip\silver.paa"};
+					case 3: {"icons\vip\gold.paa"};
+					case 4: {"icons\vip\platinum.paa"};
+					case 5: {"icons\vip\diamante.paa"};
 
-					default {"icons\cop\1.paa"};
+					default {"icons\vip\civil.paa"};
 					},
 
 					_x GVAR ["realname",name _x],
 					
 					switch ((_x GVAR "viprank")) do {
-						case 1: {"Bronze"};
-						case 2: {"Silver"};
-						case 3: {"Gold"};
-						case 4: {"Platinum"};
-						case 5: {"Diamante"};
+						case 1: {"VIP Bronze"};
+						case 2: {"VIP Silver"};
+						case 3: {"VIP Gold"};
+						case 4: {"VIP Platinum"};
+						case 5: {"VIP Diamante"};
 						
 						default {"Civil"};
 					}]};
