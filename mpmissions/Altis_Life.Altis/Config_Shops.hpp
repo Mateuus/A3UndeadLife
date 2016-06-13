@@ -52,116 +52,269 @@ class WeaponShops {
         };
     };
 	
-	
-	class bronze {
-        name = "Billy Joe's Firearms";
+	class bronze {    
+        name = "Bronze Armas Shop";
         side = "civ";
-        license = "";
+        license = "rebel";
         level = 1;
         msg = "";
         items[] = {
-			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 1 } },
             { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 1 } },
             { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 1 } },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 1 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 2000, { "life_donator", "SCALAR", 1 } },
 			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
 			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
 			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 1 } },
 			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 1 } },
-			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 1 } },
-			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 1 } }
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 15000, { "life_donator", "SCALAR", 1 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 1300, { "life_donator", "SCALAR", 1 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 130000, { "life_donator", "SCALAR", 1 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 5000, { "life_donator", "SCALAR", 1 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 210000, { "life_donator", "SCALAR", 1 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 6000, { "life_donator", "SCALAR", 1 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 100000, { "life_donator", "SCALAR", 1 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_Katiba_F", "Fuzil 6.5mm", 35000, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_Katiba_C_F", "Fuzil 6.5mm", 35000, { "life_donator", "SCALAR", 1 } },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Munição 30rnd 6.5mm", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "arifle_SDAR_F", "Fuzil Aquático", 12000, { "life_donator", "SCALAR", 1 } },
+			{ "20Rnd_556x45_UW_mag", "Munição 20rnd Aquático", 1500, { "life_donator", "SCALAR", 1 } },
+			{ "srifle_DMR_01_F", "Rifle 7.62mm", 60000, { "life_donator", "SCALAR", 1 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "optic_Arco", "Arco", 8000, { "life_donator", "SCALAR", 1 } },
+			{ "optic_Hamr", "Hamr", 8000, { "life_donator", "SCALAR", 1 } },
+			{ "optic_Aco", "Aco", 2500, { "life_donator", "SCALAR", 1 } },
+			{ "optic_Holosight", "Holosight", 5500, { "life_donator", "SCALAR", 1 } },
+			{ "optic_MRCO", "MRCO", 7500, { "life_donator", "SCALAR", 1 } },
+			{ "optic_DMS", "DMS", 12500, { "life_donator", "SCALAR", 1 } },
+			{ "acc_flashlight", "Lanterna", 5000, { "life_donator", "SCALAR", 1 } },
+			{ "acc_pointer_IR", "Laser", 5000, { "life_donator", "SCALAR", 1 } },
+			{ "muzzle_snds_M", "Silenciador 5.56mm", 8000, { "life_donator", "SCALAR", 1 } },
+			{ "muzzle_snds_H", "Silenciador 6.5mm", 10000, { "life_donator", "SCALAR", 1 } }
         };
     };
 	
 	class silver {
-        name = "Billy Joe's Firearms";
+        name = "Silver Armas Shop";
         side = "civ";
-        license = "";
+        license = "rebel";
         level = 2;
         msg = "";
         items[] = {
-			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 2 } },
-			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 2 } },
-            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 2 } },
-            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 2 } },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 2 } },
-			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 2 } },
-			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 2 } },
-			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 2 } },
-			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 2 } },
-			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 2 } }
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 35000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 17000, { "life_donator", "SCALAR", 2 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 22000, { "life_donator", "SCALAR", 2 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 22000, { "life_donator", "SCALAR", 2 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1700, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 36000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 36000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 46000, { "life_donator", "SCALAR", 2 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2200, { "life_donator", "SCALAR", 2 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 12000, { "life_donator", "SCALAR", 2 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 1000, { "life_donator", "SCALAR", 2 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 100000, { "life_donator", "SCALAR", 2 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 190000, { "life_donator", "SCALAR", 2 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 5500, { "life_donator", "SCALAR", 2 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 80000, { "life_donator", "SCALAR", 2 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 2000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_Katiba_F", "Fuzil 6.5mm", 32000, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_Katiba_C_F", "Fuzil 6.5mm", 32000, { "life_donator", "SCALAR", 2 } },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Munição 30rnd 6.5mm", 1200, { "life_donator", "SCALAR", 2 } },
+			{ "arifle_SDAR_F", "Fuzil Aquático", 10000, { "life_donator", "SCALAR", 2 } },
+			{ "20Rnd_556x45_UW_mag", "Munição 20rnd Aquático", 1200, { "life_donator", "SCALAR", 2 } },
+			{ "srifle_DMR_01_F", "Rifle 7.62mm", 57000, { "life_donator", "SCALAR", 2 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2200, { "life_donator", "SCALAR", 2 } },
+			{ "srifle_DMR_06_camo_F", "Rifle 7.62mm", 57000, { "life_donator", "SCALAR", 2 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2200, { "life_donator", "SCALAR", 2 } },
+			{ "optic_Arco", "Arco", 7000, { "life_donator", "SCALAR", 2 } },
+			{ "optic_Hamr", "Hamr", 7000, { "life_donator", "SCALAR", 2 } },
+			{ "optic_Aco", "Aco", 2200, { "life_donator", "SCALAR", 2 } },
+			{ "optic_Holosight", "Holosight", 5200, { "life_donator", "SCALAR", 2 } },
+			{ "optic_MRCO", "MRCO", 7000, { "life_donator", "SCALAR", 2 } },
+			{ "optic_DMS", "DMS", 11000, { "life_donator", "SCALAR", 2 } },
+			{ "acc_flashlight", "Lanterna", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "acc_pointer_IR", "Laser", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "bipod_01_F_blk", "Bipod Preto", 4500, { "life_donator", "SCALAR", 2 } },
+			{ "muzzle_snds_M", "Silenciador 5.56mm", 7500, { "life_donator", "SCALAR", 2 } },
+			{ "muzzle_snds_H", "Silenciador 6.5mm", 9500, { "life_donator", "SCALAR", 2 } },
+			{ "muzzle_snds_B", "Silenciador 7.62mm", 9500, { "life_donator", "SCALAR", 2 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 15000, { "life_donator", "SCALAR", 2 } }
         };
     };
 	
 	class gold {
-        name = "Billy Joe's Firearms";
+        name = "Gold Armas Shop";
         side = "civ";
-        license = "";
+        license = "rebel";
         level = 3;
         msg = "";
         items[] = {
-			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 3 } },
-			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 3 } },
-            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 3 } },
-            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 3 } },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 3 } },
-			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 3 } },
-			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 3 } },
-			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 3 } },
-			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
-			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 3 } }
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 32000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 14000, { "life_donator", "SCALAR", 3 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 19000, { "life_donator", "SCALAR", 3 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 19000, { "life_donator", "SCALAR", 3 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1400, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 33000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 33000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 43000, { "life_donator", "SCALAR", 3 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 1900, { "life_donator", "SCALAR", 3 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 10000, { "life_donator", "SCALAR", 3 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 1000, { "life_donator", "SCALAR", 3 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 800000, { "life_donator", "SCALAR", 3 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 4000, { "life_donator", "SCALAR", 3 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 183000, { "life_donator", "SCALAR", 3 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 5000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 730000, { "life_donator", "SCALAR", 3 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 1800, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_Katiba_F", "Fuzil 6.5mm", 28000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_Katiba_C_F", "Fuzil 6.5mm", 28000, { "life_donator", "SCALAR", 3 } },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Munição 30rnd 6.5mm", 1000, { "life_donator", "SCALAR", 3 } },
+			{ "arifle_SDAR_F", "Fuzil Aquático", 70000, { "life_donator", "SCALAR", 3 } },
+			{ "20Rnd_556x45_UW_mag", "Munição 20rnd Aquático", 1000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_DMR_01_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 3 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_DMR_06_camo_F", "Rifle 7.62mm", 53000, { "life_donator", "SCALAR", 3 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_DMR_03_multicam_F", "Rifle 7.62mm", 53000, { "life_donator", "SCALAR", 3 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2000, { "life_donator", "SCALAR", 3 } },
+			{ "srifle_DMR_05_hex_F", "Rifle 9.3mm", 170000, { "life_donator", "SCALAR", 3 } },
+			{ "10Rnd_93x64_DMR_05_Mag", "Munição 10rnd 9.3mm", 2500, { "life_donator", "SCALAR", 3 } },
+			{ "optic_Arco", "Arco", 6500, { "life_donator", "SCALAR", 3 } },
+			{ "optic_Hamr", "Hamr", 6500, { "life_donator", "SCALAR", 3 } },
+			{ "optic_Aco", "Aco", 1900, { "life_donator", "SCALAR", 3 } },
+			{ "optic_Holosight", "Holosight", 4900, { "life_donator", "SCALAR", 3 } },
+			{ "optic_MRCO", "MRCO", 6400, { "life_donator", "SCALAR", 3 } },
+			{ "optic_DMS", "DMS", 94000, { "life_donator", "SCALAR", 3 } },
+			{ "acc_flashlight", "Lanterna", 4100, { "life_donator", "SCALAR", 3 } },
+			{ "acc_pointer_IR", "Laser", 4100, { "life_donator", "SCALAR", 3 } },
+			{ "bipod_01_F_blk", "Bipod Preto", 4100, { "life_donator", "SCALAR", 3 } },
+			{ "bipod_01_F_snd", "Bipod Sand", 4100, { "life_donator", "SCALAR", 3 } },
+			{ "muzzle_snds_M", "Silenciador 5.56mm", 7000, { "life_donator", "SCALAR", 3 } },
+			{ "muzzle_snds_H", "Silenciador 6.5mm", 9000, { "life_donator", "SCALAR", 3 } },
+			{ "muzzle_snds_B", "Silenciador 7.62mm", 9000, { "life_donator", "SCALAR", 3 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 12000, { "life_donator", "SCALAR", 3 } },
         };
     };
-	
+    
 	class platinum {
-        name = "Billy Joe's Firearms";
+        name = "Platinum Armas Shop";
         side = "civ";
-        license = "";
+        license = "rebel";
         level = 4;
         msg = "";
         items[] = {
-			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 15000, { "life_donator", "SCALAR", 4 } },
-			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 4 } },
-            { "arifle_TRG20_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 4 } },
-            { "arifle_TRG21_F", "Fuzil 5.56mm", 25000, { "life_donator", "SCALAR", 4 } },
-            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1000, { "life_donator", "SCALAR", 4 } },
-			{ "arifle_MXC_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 4 } },
-			{ "arifle_MX_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 4 } },
-			{ "arifle_MXM_F", "Fuzil Cano Longo", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "life_donator", "SCALAR", 4 } },
-			{ "SMG_01_F", "Submetralhadora 4.5mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "srifle_EBR_F", "Rifle 7.62mm", 50000, { "life_donator", "SCALAR", 4 } },
-			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 50000, { "life_donator", "SCALAR", 4 } }
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 29000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 11000, { "life_donator", "SCALAR", 4 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 16000, { "life_donator", "SCALAR", 4 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 16000, { "life_donator", "SCALAR", 4 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1100, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 30000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 30000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 40000, { "life_donator", "SCALAR", 4 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 7000, { "life_donator", "SCALAR", 4 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 800, { "life_donator", "SCALAR", 4 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 750000, { "life_donator", "SCALAR", 4 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 161000, { "life_donator", "SCALAR", 4 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 4500, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 69000, { "life_donator", "SCALAR", 4 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 1400, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_Katiba_F", "Fuzil 6.5mm", 25000, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_Katiba_C_F", "Fuzil 6.5mm", 25000, { "life_donator", "SCALAR", 4 } },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Munição 30rnd 6.5mm", 700, { "life_donator", "SCALAR", 4 } },
+			{ "arifle_SDAR_F", "Fuzil Aquático", 6000, { "life_donator", "SCALAR", 4 } },
+			{ "20Rnd_556x45_UW_mag", "Munição 20rnd Aquático", 700, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_DMR_01_F", "Rifle 7.62mm", 45000, { "life_donator", "SCALAR", 4 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_DMR_06_camo_F", "Rifle 7.62mm", 47000, { "life_donator", "SCALAR", 4 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1700, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_DMR_03_multicam_F", "Rifle 7.62mm", 48000, { "life_donator", "SCALAR", 4 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "srifle_DMR_05_hex_F", "Rifle 9.3mm", 148000, { "life_donator", "SCALAR", 4 } },
+			{ "10Rnd_93x64_DMR_05_Mag", "Munição 10rnd 9.3mm", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "MMG_02_camo_F", "Fuzil 338mm", 230000, { "life_donator", "SCALAR", 4 } },
+			{ "130Rnd_338_Mag", "Munição 130rnd 338mm", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "optic_Arco", "Arco", 6000, { "life_donator", "SCALAR", 4 } },
+			{ "optic_Hamr", "Hamr", 6000, { "life_donator", "SCALAR", 4 } },
+			{ "optic_Aco", "Aco", 1500, { "life_donator", "SCALAR", 4 } },
+			{ "optic_Holosight", "Holosight", 4900, { "life_donator", "SCALAR", 4 } },
+			{ "optic_MRCO", "MRCO", 6000, { "life_donator", "SCALAR", 4 } },
+			{ "optic_DMS", "DMS", 8000, { "life_donator", "SCALAR", 4 } },
+			{ "acc_flashlight", "Lanterna", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "acc_pointer_IR", "Laser", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "bipod_01_F_blk", "Bipod Preto", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "bipod_01_F_snd", "Bipod Sand", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "bipod_02_F_tan", "Bipod Tan", 3500, { "life_donator", "SCALAR", 4 } },
+			{ "muzzle_snds_M", "Silenciador 5.56mm", 6000, { "life_donator", "SCALAR", 4 } },
+			{ "muzzle_snds_H", "Silenciador 6.5mm", 8000, { "life_donator", "SCALAR", 4 } },
+			{ "muzzle_snds_B", "Silenciador 7.62mm", 8000, { "life_donator", "SCALAR", 4 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 10000, { "life_donator", "SCALAR", 4 } },
+        };
+    };
+	
+	class diamond {
+        name = "Diamond Armas Shop";
+        side = "civ";
+        license = "rebel";
+        level = 5;
+        msg = "";
+        items[] = {
+			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 25000, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 8000, { "life_donator", "SCALAR", 5 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 11000, { "life_donator", "SCALAR", 5 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 11000, { "life_donator", "SCALAR", 5 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 500, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_MXC_F", "Fuzil Cano Curto", 25000, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_MX_F", "Fuzil Cano Curto", 25000, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_MXM_F", "Fuzil Cano Longo", 35000, { "life_donator", "SCALAR", 5 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 500, { "life_donator", "SCALAR", 5 } },
+			{ "SMG_01_F", "Submetralhadora 4.5mm", 5000, { "life_donator", "SCALAR", 5 } },
+			{ "30Rnd_45ACP_Mag_SMG_01_tracer_green", "Munição 30rnd 4.5mm", 200, { "life_donator", "SCALAR", 5 } },
+			{ "LMG_Mk200_pointer_F", "Fuzil LMG 6.5mm", 650000, { "life_donator", "SCALAR", 5 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 2000, { "life_donator", "SCALAR", 5 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 138000, { "life_donator", "SCALAR", 5 } },
+			{ "150Rnd_762x54_Box_Tracer", "Munição 150rnd 7.62mm", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_EBR_F", "Rifle 7.62mm", 60000, { "life_donator", "SCALAR", 5 } },
+			{ "20Rnd_762x51_Mag", "Munição 20rnd 7.62mm", 1000, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_Katiba_F", "Fuzil 6.5mm", 20000, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_Katiba_C_F", "Fuzil 6.5mm", 20000, { "life_donator", "SCALAR", 5 } },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "Munição 30rnd 6.5mm", 700, { "life_donator", "SCALAR", 5 } },
+			{ "arifle_SDAR_F", "Fuzil Aquático", 3000, { "life_donator", "SCALAR", 5 } },
+			{ "20Rnd_556x45_UW_mag", "Munição 20rnd Aquático", 100, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_DMR_01_F", "Rifle 7.62mm", 38000, { "life_donator", "SCALAR", 5 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1000, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_DMR_06_camo_F", "Rifle 7.62mm", 42000, { "life_donator", "SCALAR", 5 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1000, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_DMR_03_multicam_F", "Rifle 7.62mm", 42000, { "life_donator", "SCALAR", 5 } },
+			{ "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 1500, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_DMR_05_hex_F", "Rifle 9.3mm", 118000, { "life_donator", "SCALAR", 5 } },
+			{ "10Rnd_93x64_DMR_05_Mag", "Munição 10rnd 9.3mm", 1000, { "life_donator", "SCALAR", 5 } },
+			{ "MMG_02_camo_F", "Fuzil 338mm", 200000, { "life_donator", "SCALAR", 5 } },
+			{ "130Rnd_338_Mag", "Munição 130rnd 338mm", 1500, { "life_donator", "SCALAR", 5 } },
+			{ "MMG_01_hex_F", "Fuzil 9.3mm", 350000, { "life_donator", "SCALAR", 5 } },
+			{ "150Rnd_93x64_Mag", "Munição 150rnd 9.3mm", 11500, { "life_donator", "SCALAR", 5 } },
+			{ "srifle_DMR_02_camo_F", "Rifle 338mm", 350000, { "life_donator", "SCALAR", 5 } },
+			{ "10Rnd_338_Mag", "Munição 10rnd 338mm", 11500, { "life_donator", "SCALAR", 5 } },
+			{ "optic_Arco", "Arco", 4000, { "life_donator", "SCALAR", 5 } },
+			{ "optic_SOS", "Sos", 14000, { "life_donator", "SCALAR", 5 } },
+			{ "optic_Hamr", "Hamr", 4000, { "life_donator", "SCALAR", 5 } },
+			{ "optic_Aco", "Aco", 500, { "life_donator", "SCALAR", 5 } },
+			{ "optic_Holosight", "Holosight", 3900, { "life_donator", "SCALAR", 5 } },
+			{ "optic_MRCO", "MRCO", 5000, { "life_donator", "SCALAR", 5 } },
+			{ "optic_DMS", "DMS", 4000, { "life_donator", "SCALAR", 5 } },
+			{ "acc_flashlight", "Lanterna", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "acc_pointer_IR", "Laser", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "bipod_01_F_blk", "Bipod Preto", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "bipod_01_F_snd", "Bipod Sand", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "bipod_02_F_tan", "Bipod Tan", 3500, { "life_donator", "SCALAR", 5 } },
+			{ "muzzle_snds_M", "Silenciador 5.56mm", 1000, { "life_donator", "SCALAR", 5 } },
+			{ "muzzle_snds_H", "Silenciador 6.5mm", 4000, { "life_donator", "SCALAR", 5 } },
+			{ "muzzle_snds_B", "Silenciador 7.62mm", 4000, { "life_donator", "SCALAR", 5 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 8000, { "life_donator", "SCALAR", 5 } },
         };
     };
 	
@@ -202,7 +355,7 @@ class WeaponShops {
             { "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2500, { "", "", -1 } },
 			{ "LMG_Mk200_F", "Fuzil LMG 6.5mm", 130000, { "", "", -1 } },
 			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 7000, { "", "", -1 } },
-			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 225000, { "", "", -1 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 250000, { "", "", -1 } },
 			{ "150Rnd_762x54_Box_Tracer", "", 10000, { "", "", -1 } },
 			{ "arifle_MXC_F", "Fuzil 6.5mm", 55000, { "", "", -1 } },
 			{ "arifle_MX_F", "Fuzil 6.5mm", 55000, { "", "", -1 } },
