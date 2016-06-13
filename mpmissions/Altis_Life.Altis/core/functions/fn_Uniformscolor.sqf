@@ -38,7 +38,16 @@ if(playerSide == WEST) then {
 
 if(playerSide == civilian) then {
 	if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 5)) then {
-	player setObjectTextureGlobal [0, "textures\mafia.paa"];
+	player setObjectTextureGlobal [0, "textures\mafia.paa"]; //Level 5 Vip
+	//player setObjectTextureGlobal [0, "textures\vip\5.paa"]; //Level 5 Vip
+	}else if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 4)) then {
+	player setObjectTextureGlobal [0, "textures\vip\4.paa"]; //Level 4 Vip
+	}else if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 3)) then {
+	player setObjectTextureGlobal [0, "textures\vip\3.paa"]; //Level 3 Vip
+	}else if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 2)) then {
+	player setObjectTextureGlobal [0, "textures\vip\2.paa"]; //Level 2 Vip
+	}else if((uniform player == "U_I_CombatUniform") && ( (FETCH_CONST(life_donator)) == 1)) then {
+	player setObjectTextureGlobal [0, "textures\vip\1.paa"]; //Level 1 Vip
 	};
 	
 	if (backpack player == "B_Carryall_oucamo") then {
