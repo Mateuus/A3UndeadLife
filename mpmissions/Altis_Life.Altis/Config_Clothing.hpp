@@ -23,16 +23,16 @@ class Clothing {
 			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "", "", -1 } },
 			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "", "", -1 } },
 			{ "U_C_Poor_2", "Roupa de Pedreiro", 250, { "", "", -1 } },
-			{ "U_IG_Guerilla2_2", "Roupa Guerrila II", 650, { "", "", -1 } },
-			{ "U_IG_Guerilla3_1", "Roupa Guerrila I", 735, { "", "", -1 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila I", 650, { "", "", -1 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila II", 735, { "", "", -1 } },
 			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "", "", -1 } },
 			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "", "", -1 } },
 			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "", "", -1 } },
-			{ "U_NikosBody", "Roupa de Malandro", 5187, { "life_donator", "SCALAR", 1 } },			
-			{ "U_I_CombatUniform", "Roupa de Mafioso", 5187, { "life_donator", "SCALAR", 4 } },
-			{ "U_B_Protagonist_VR", "Roupa VR Azul", 5187, { "life_donator", "SCALAR", 3 } },
-			{ "U_O_Protagonist_VR", "Roupa VR Vermelha", 5187, { "life_donator", "SCALAR", 3 } },
-			{ "U_I_Protagonist_VR", "Roupa VR Verde", 5187, { "life_donator", "SCALAR", 3 } }
+			{ "U_NikosBody", "Roupa de Malandro VIP", 2500, { "life_donator", "SCALAR", 1 } },			
+			{ "U_I_CombatUniform", "Roupa Padrão VIP", 5000, { "life_donator", "SCALAR", 1 } },
+			{ "U_B_Protagonist_VR", "Roupa VIP Azul", 15000, { "life_donator", "SCALAR", 3 } },
+			{ "U_O_Protagonist_VR", "Roupa VIP Vermelha", 15000, { "life_donator", "SCALAR", 3 } },
+			{ "U_I_Protagonist_VR", "Roupa VIP Verde", 15000, { "life_donator", "SCALAR", 3 } }
 
 		};
 
@@ -111,7 +111,7 @@ class Clothing {
 
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_Rangemaster", "Basic Uniform", 2500, { "life_coplevel", "SCALAR", 1 } },
+			{ "U_Rangemaster", "Uniforme Padrao", 2500, { "life_coplevel", "SCALAR", 1 } },
 			{ "U_BG_Guerilla3_2", "Working Uniform", 2500, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_O_OfficerUniform_ocamo", "HighRanking Uniform", 2500, { "life_coplevel", "SCALAR", 5 } },
 			{ "U_O_SpecopsUniform_ocamo", "Roupa do Bope", 2500, { "life_swatlevel", "SCALAR", 1 } },
