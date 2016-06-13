@@ -16,23 +16,23 @@ class Clothing {
 
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_C_Poloshirt_blue", "Mecca Tshirt", 250, { "", "", -1 } },
-			{ "U_C_Poloshirt_burgundy", "Poloshirt Burgundy", 275, { "", "", -1 } },
-			{ "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
-			{ "U_C_Poloshirt_salmon", "Poloshirt Salmon", 175, { "", "", -1 } },
-			{ "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
-			{ "U_C_Poloshirt_tricolour", "Poloshirt Tricolor", 350, { "", "", -1 } },
-			{ "U_C_Poor_2", "Rag tagged clothes", 250, { "", "", -1 } },
-			{ "U_IG_Guerilla2_2", "Green stripped shirt & Pants", 650, { "", "", -1 } },
-			{ "U_IG_Guerilla3_1", "Brown Jacket & Pants", 735, { "", "", -1 } },
-			{ "U_IG_Guerilla2_3", "The Outback Rangler", 700, { "", "", -1 } },
-			{ "U_C_HunterBody_grn", "The Hunters Look", 700, { "", "", -1 } },
-			{ "U_OrestesBody", "Surfing On Land", 1100, { "", "", -1 } },
-			{ "U_NikosBody", "Bro Suit", 5187, { "life_donator", "SCALAR", 1 } },			
-			{ "U_I_CombatUniform", "Mafia suit", 5187, { "life_donator", "SCALAR", 4 } },
-			{ "U_B_Protagonist_VR", "VR Suit Blue", 5187, { "life_donator", "SCALAR", 3 } },
-			{ "U_O_Protagonist_VR", "VR Suit Red", 5187, { "life_donator", "SCALAR", 3 } },
-			{ "U_I_Protagonist_VR", "VR Suit Green", 5187, { "life_donator", "SCALAR", 3 } }
+			{ "U_C_Poloshirt_blue", "Undead Brasil Roupa", 250, { "", "", -1 } },
+			{ "U_C_Poloshirt_burgundy", "Roupa Burgundy", 275, { "", "", -1 } },
+			{ "U_C_Poloshirt_redwhite", "Roupa Vermelha e Branca", 150, { "", "", -1 } },
+			{ "U_C_Poloshirt_salmon", "Roupa Salmao", 175, { "", "", -1 } },
+			{ "U_C_Poloshirt_stripped", "Roupa stripped", 125, { "", "", -1 } },
+			{ "U_C_Poloshirt_tricolour", "Roupa Tricolor", 350, { "", "", -1 } },
+			{ "U_C_Poor_2", "Roupa de Pedreiro", 250, { "", "", -1 } },
+			{ "U_IG_Guerilla2_2", "Roupa Guerrila II", 650, { "", "", -1 } },
+			{ "U_IG_Guerilla3_1", "Roupa Guerrila I", 735, { "", "", -1 } },
+			{ "U_IG_Guerilla2_3", "Roupa Guerrila III", 700, { "", "", -1 } },
+			{ "U_C_HunterBody_grn", "Roupa de Caçador", 700, { "", "", -1 } },
+			{ "U_OrestesBody", "Roupa de Surfista", 1100, { "", "", -1 } },
+			{ "U_NikosBody", "Roupa de Malandro", 5187, { "life_donator", "SCALAR", 1 } },			
+			{ "U_I_CombatUniform", "Roupa de Mafioso", 5187, { "life_donator", "SCALAR", 4 } },
+			{ "U_B_Protagonist_VR", "Roupa VR Azul", 5187, { "life_donator", "SCALAR", 3 } },
+			{ "U_O_Protagonist_VR", "Roupa VR Vermelha", 5187, { "life_donator", "SCALAR", 3 } },
+			{ "U_I_Protagonist_VR", "Roupa VR Verde", 5187, { "life_donator", "SCALAR", 3 } }
 
 		};
 
@@ -57,8 +57,11 @@ class Clothing {
 			{ "H_Cap_grn", "", 150, { "", "", -1 } },
 			{ "H_Cap_grn_BI", "", 150, { "", "", -1 } },
 			{ "H_Cap_oli", "", 150, { "", "", -1 } },
-			{ "H_Cap_red", "", 150, { "", "", -1 } },
-			{ "H_Cap_tan", "", 150, { "", "", -1 } }
+			{ "H_Shemag_khk", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_tan", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_Shemag_olive_hs", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_khk", "", 150, { "life_donator", "SCALAR", 1 } },
+			{ "H_ShemagOpen_tan", "", 150, { "life_donator", "SCALAR", 1 } }
 		};
 
 		goggles[] = {
@@ -80,7 +83,11 @@ class Clothing {
 
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_TacVestIR_blk", "", 60500, { "", "", -1 } }
+			{ "V_TacVestIR_blk", "", 9500, { "life_donator", "SCALAR", 1 } },
+			{ "V_PlateCarrierIA2_dgtl", "", 9500, { "life_donator", "SCALAR", 2 } },
+			{ "V_PlateCarrierIAGL_dgtl", "", 9500, { "life_donator", "SCALAR", 3 } },
+			{ "V_PlateCarrierH_CTRG", "", 9500, { "life_donator", "SCALAR", 4 } },
+			{ "V_PlateCarrierGL_rgr", "", 9500, { "life_donator", "SCALAR", 5 } }
 		};
 
 		backpacks[] = {
@@ -107,7 +114,7 @@ class Clothing {
 			{ "U_Rangemaster", "Basic Uniform", 2500, { "life_coplevel", "SCALAR", 1 } },
 			{ "U_BG_Guerilla3_2", "Working Uniform", 2500, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_O_OfficerUniform_ocamo", "HighRanking Uniform", 2500, { "life_coplevel", "SCALAR", 5 } },
-			{ "U_O_SpecopsUniform_ocamo", "Swat Uniform", 2500, { "life_swatlevel", "SCALAR", 1 } },
+			{ "U_O_SpecopsUniform_ocamo", "Roupa do Bope", 2500, { "life_swatlevel", "SCALAR", 1 } },
 			{ "U_B_Wetsuit", "", 2000, { "", "", -1 } }
 		};
 
