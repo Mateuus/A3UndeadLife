@@ -464,7 +464,7 @@ class Clothing {
 		};
 	};
 	
-	class Roupas Platinum {
+	class Roupas Diamond {
 		title = "STR_Shops_C_Bruce";
 		license = "";
 		side = "civ";
