@@ -56,7 +56,23 @@
 
 #define pstrider 150000
 
-#define huntervip4 300000
+#define ifritvip1 500000
+#define ifritvip2 350000
+#define ifritvip3 300000
+#define ifritvip4 250000
+#define ifritvip5 200000
+
+#define huntervip1 475000
+#define huntervip2 375000
+#define huntervip3 250000
+#define huntervip4 175000
+#define huntervip5 100000
+
+#define stridervip1 550000
+#define stridervip2 475000
+#define stridervip3 350000
+#define stridervip4 250000
+#define stridervip5 135000
 
 
 
@@ -77,9 +93,25 @@ class CarShops {
 			{ "C_Offroad_01_F", poffroad, "driver" },
 			{ "C_SUV_01_F", psuv, "driver" },
 			{ "C_Hatchback_01_sport_F", phatchbacksport, "driver" },
-			{ "I_MRAP_03_F", huntervip4, "driver", { "life_donator", "SCALAR", 4 } }
+			{ "O_MRAP_02_F", ifritvip1, "driver", { "life_donator", "SCALAR", 1 } },
+			{ "O_MRAP_02_F", ifritvip2, "driver", { "life_donator", "SCALAR", 2 } },
+			{ "O_MRAP_02_F", ifritvip3, "driver", { "life_donator", "SCALAR", 3 } },
+			{ "O_MRAP_02_F", ifritvip4, "driver", { "life_donator", "SCALAR", 4 } },
+			{ "O_MRAP_02_F", ifritvip5, "driver", { "life_donator", "SCALAR", 5 } },
+			{ "B_MRAP_01_F", huntertvip1, "driver", { "life_donator", "SCALAR", 1 } },
+			{ "B_MRAP_01_F", huntertvip2, "driver", { "life_donator", "SCALAR", 2 } },
+			{ "B_MRAP_01_F", huntertvip3, "driver", { "life_donator", "SCALAR", 3 } },
+			{ "B_MRAP_01_F", huntertvip4, "driver", { "life_donator", "SCALAR", 4 } },
+			{ "B_MRAP_01_F", huntertvip5, "driver", { "life_donator", "SCALAR", 5 } },
+			{ "I_MRAP_03_F", stridervip1, "driver", { "life_donator", "SCALAR", 1 } },
+			{ "I_MRAP_03_F", stridervip1, "driver", { "life_donator", "SCALAR", 2 } },
+			{ "I_MRAP_03_F", stridervip1, "driver", { "life_donator", "SCALAR", 3 } },
+			{ "I_MRAP_03_F", stridervip1, "driver", { "life_donator", "SCALAR", 4 } },
+			{ "I_MRAP_03_F", stridervip1, "driver", { "life_donator", "SCALAR", 5 } }
+			
 		};
 	};
+	
 
 	class kart_shop {
 		side = "civ";	
@@ -128,12 +160,9 @@ class CarShops {
 		vehicles[] = {
 			{ "B_Quadbike_01_F", pquadbike, "" },
 			{ "B_G_Offroad_01_F", poffroad, "" },
-			{ "O_MRAP_02_F", pifrit, "rebel" },
 			{ "B_G_Offroad_01_armed_F", p50cal, "rebel" },
 			{ "B_Heli_Light_01_F", pmh9civ, "rebel" },
 			{ "O_Heli_Light_02_unarmed_F", porcaciv, "rebel" },
-			{ "O_Heli_Transport_04_bench_F", ptarubench, "rebel" },
-			{ "B_Heli_Transport_03_F", huron, "rebel" }
 		};
 	};
 
@@ -141,11 +170,10 @@ class CarShops {
 		side = "cop";
 		vehicles[] = {
 			{ "I_Quadbike_01_F", pquadbike, "" }, 
-			{ "C_Offroad_01_F", poffroadcop, "", { "life_coplevel", 2 } },
-			{ "C_SUV_01_F", psuvcop, "", { "life_coplevel", 2 } },
-			{ "B_MRAP_01_F", phuntercop, "", { "life_coplevel", 5 } },
-			{ "O_APC_Wheeled_02_rcws_F", pmarid, "", { "life_swatlevel", 1 } },
-			{ "C_Hatchback_01_sport_F", phatchbacksport, "", { "life_coplevel", 2 } }
+			{ "C_Offroad_01_F", poffroadcop, "", { "life_coplevel", 1 } },
+			{ "C_SUV_01_F", psuvcop, "", { "life_coplevel", 1 } },
+			{ "B_MRAP_01_F", phuntercop, "", { "life_coplevel", 4 } },
+			{ "C_Hatchback_01_sport_F", phatchbacksport, "", { "life_coplevel", 1 } }
 		};
 	};
 
@@ -162,7 +190,6 @@ class CarShops {
 	class civ_jet {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Plane_CAS_01_F", ptarutrans, "pilot",{ "life_donator", 3 } }
 		};
 	};
 
@@ -246,11 +273,7 @@ class CfgVehicles {
 	    vItemSpace = 150;
 	    price = pmarid;
 	    textures[] = {
-	        { "Swat", "cop", {
-                "textures\swat apc.jpg",
-                "textures\swat apc2.jpg",
-                "textures\swat turret.jpg"
-            } }
+	        
 	    };
 	};
 	class C_Offroad_01_repair_F : Default {
@@ -490,7 +513,21 @@ class CfgVehicles {
 		garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
-        textures[] = { };
+        textures[] = { 
+		{ "Ifrit Chamas VIP", "civ", {
+	                "textures\vip\flame_ifrit_1.jpg",
+					"textures\vip\flame_ifrit_2.jpg"
+        } },
+		{ "Ifrit Batman VIP", "civ", {
+	                "textures\vip\ifrit_batman_front.jpg",
+					"textures\vip\ifrit_batman_hinten.jpg"
+        } },
+		{ "Ifrit Wolf Bite VIP", "civ", {
+	                "textures\vip\mrap_02_ext_01_co.jpg",
+					"textures\vip\mrap_02_ext_02_co.jpg"
+        } },
+				
+		};
     };
 
 	class I_MRAP_03_F {
@@ -736,6 +773,21 @@ class CfgVehicles {
             } },
             { "Donut", "civ", {
                 "textures\donut_suv_textures.paa"
+            } },
+			 { "Batllefield", "civ", {
+                "textures\civ\Battlefield_LowTexture.jpg"
+            } },
+			 { "Graffit", "civ", {
+                "textures\civ\suv_graffiti4.jpg"
+            } },
+			 { "Warframe", "civ", {
+                "textures\civ\Warframe_LowTexture.jpg"
+            } },
+			 { "Wolf Eistern", "civ", {
+                "textures\civ\Wolfenstein_LowTexture.jpg"
+            } },
+			 { "Zero", "civ", {
+                "textures\civ\Zero_LowTexture.jpg"
             } }
 	        };
     };
@@ -784,10 +836,24 @@ class CfgVehicles {
                 "textures\Hunter1.jpg",
                 "textures\Hunter2.jpg"
             } },
-            { "Black", "fed", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
+        { "Hunter VIP", "civ", {
+	                "textures\vip\donator_hunter_front.paa",
+					"textures\vip\donator_hunter_hinten.paa"
+        } },
+		{ "Hunter Assassino de COP VIP", "civ", {
+	                "textures\vip\mrap_01_adds_co.jpg",
+					"textures\vip\mrap_01_base_co.jpg"
+        } },
+		{ "Hunter Unicórnio VIP", "civ", {
+	                "textures\vip\unicorn_hunter_teil1.paa",
+					"textures\vip\unicorn_hunter_teil2.paa"
+        } },
+		{ "Hunter Caveira VIP", "civ", {
+	                "textures\vip\graywolfhunter_1.jpg",
+					"textures\vip\graywolfhunter_2.jpg"
+        } },
+        
+		};
     };
 
 	class B_Heli_Light_01_F {
