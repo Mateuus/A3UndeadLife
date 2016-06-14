@@ -36,7 +36,7 @@ class WeaponShops {
         side = "civ";
         license = "gun";
         level = -1;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "ItemMap", "Mapa", 100, { "", "", -1 } },
 			{ "ItemRadio", "Radio", 100, { "", "", -1 } },
@@ -55,9 +55,9 @@ class WeaponShops {
 	class bronze {    
         name = "Bronze Armas Shop";
         side = "civ";
-        license = "rebel";
+        license = "gun";
         level = 1;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 40000, { "life_donator", "SCALAR", 1 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 20000, { "life_donator", "SCALAR", 1 } },
@@ -99,9 +99,9 @@ class WeaponShops {
 	class silver {
         name = "Silver Armas Shop";
         side = "civ";
-        license = "rebel";
+        license = "gun";
         level = 2;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 35000, { "life_donator", "SCALAR", 2 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 17000, { "life_donator", "SCALAR", 2 } },
@@ -148,9 +148,9 @@ class WeaponShops {
 	class gold {
         name = "Gold Armas Shop";
         side = "civ";
-        license = "rebel";
+        license = "gun";
         level = 3;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 32000, { "life_donator", "SCALAR", 3 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 14000, { "life_donator", "SCALAR", 3 } },
@@ -202,9 +202,9 @@ class WeaponShops {
 	class platinum {
         name = "Platinum Armas Shop";
         side = "civ";
-        license = "rebel";
+        license = "gun";
         level = 4;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 29000, { "life_donator", "SCALAR", 4 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 11000, { "life_donator", "SCALAR", 4 } },
@@ -259,9 +259,9 @@ class WeaponShops {
 	class diamond {
         name = "Diamond Armas Shop";
         side = "civ";
-        license = "rebel";
+        license = "gun";
         level = 5;
-        msg = "";
+        msg = "Você precisa ter a licença de armas legalizadas!";
         items[] = {
 			{ "arifle_MXC_Black_F", "Fuzil Cano Curto", 25000, { "life_donator", "SCALAR", 5 } },
 			{ "arifle_Mk20C_F", "Fuzil 5.56mm", 8000, { "life_donator", "SCALAR", 5 } },
