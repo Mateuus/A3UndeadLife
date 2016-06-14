@@ -195,7 +195,7 @@ class WeaponShops {
 			{ "muzzle_snds_M", "Silenciador 5.56mm", 7000, { "life_donator", "SCALAR", 3 } },
 			{ "muzzle_snds_H", "Silenciador 6.5mm", 9000, { "life_donator", "SCALAR", 3 } },
 			{ "muzzle_snds_B", "Silenciador 7.62mm", 9000, { "life_donator", "SCALAR", 3 } },
-			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 12000, { "life_donator", "SCALAR", 3 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 12000, { "life_donator", "SCALAR", 3 } }
         };
     };
     
@@ -252,11 +252,11 @@ class WeaponShops {
 			{ "muzzle_snds_M", "Silenciador 5.56mm", 6000, { "life_donator", "SCALAR", 4 } },
 			{ "muzzle_snds_H", "Silenciador 6.5mm", 8000, { "life_donator", "SCALAR", 4 } },
 			{ "muzzle_snds_B", "Silenciador 7.62mm", 8000, { "life_donator", "SCALAR", 4 } },
-			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 10000, { "life_donator", "SCALAR", 4 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 10000, { "life_donator", "SCALAR", 4 } }
         };
     };
 	
-	class diamond {
+	class diamante {
         name = "Diamond Armas Shop";
         side = "civ";
         license = "gun";
@@ -314,7 +314,70 @@ class WeaponShops {
 			{ "muzzle_snds_M", "Silenciador 5.56mm", 1000, { "life_donator", "SCALAR", 5 } },
 			{ "muzzle_snds_H", "Silenciador 6.5mm", 4000, { "life_donator", "SCALAR", 5 } },
 			{ "muzzle_snds_B", "Silenciador 7.62mm", 4000, { "life_donator", "SCALAR", 5 } },
-			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 8000, { "life_donator", "SCALAR", 5 } },
+			{ "muzzle_snds_H_MG", "Silenciador LMG 6.5mm", 8000, { "life_donator", "SCALAR", 5 } }
+        };
+    };
+	
+	class rebelvip {
+        name = "Mercado VIP";
+        side = "civ";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "FirstAidKit", "Bolsa de Sangue", 500, { "", "", -1 } },
+			{ "ToolKit", "Estojo de ferramentas", 500, { "", "", -1 } },
+			{ "ItemGPS", "Gps", 50, { "", "", -1 } },
+			{ "ItemMap", "Mapa", 50, { "", "", -1 } },
+			{ "ItemRadio", "Radio", 50, { "", "", -1 } },
+			{ "ItemCompass", "Bússola", 50, { "", "", -1 } },
+            { "Binocular", "Binóculo", 1000, { "", "", -1 } },
+			{ "Rangefinder", "Rangefider", 5000, { "", "", -1 } },
+            { "NVGoggles_INDEP", "NVG Black", 1000, { "", "", -1 } },
+            { "NVGoggles", "NVG Brown", 1000, { "", "", -1 } },
+            { "hgun_Rook40_F", "Pistola 9mm", 5000, { "", "", -1 } },
+            { "30Rnd_9x21_Mag", "Munição 30rnd 9mm", 500, { "", "", -1 } },
+			{ "hgun_ACPC2_F", "Pistola 4.5mm", 6000, { "", "", -1 } },
+			{ "9Rnd_45ACP_Mag", "Munição 9rnd 4.5mm", 500, { "", "", -1 } },
+            { "hgun_PDW2000_F", "Submetralhadora 9mm", 10000, { "", "", -1 } },
+            { "30Rnd_9x21_Mag", "Munição 30rnd 9mm", 500, { "", "", -1 } },
+            { "arifle_sdar_F", "Fuzil Aquático", 10000, { "", "", -1 } },
+            { "20Rnd_556x45_UW_mag", "Munição 20rnd aquático", 500, { "", "", -1 } },
+            { "hgun_Pistol_heavy_02_F", "Pistola 4.5mm", 7000, { "", "", -1 } },
+            { "6Rnd_45ACP_Cylinder", "Munição 6rnd 4.5mm", 500, { "", "", -1 } },
+            { "arifle_Mk20C_F", "Fuzil 5.56mm", 25000, { "", "", -1 } },
+            { "arifle_TRG20_F", "Fuzil 5.56mm", 30000, { "", "", -1 } },
+            { "arifle_TRG21_F", "Fuzil 5.56mm", 30000, { "", "", -1 } },
+            { "30Rnd_556x45_Stanag_Tracer_Green", "Munição 30rnd 5.56mm", 1500, { "", "", -1 } },
+            { "arifle_Katiba_F", "Fuzil 6.5mm", 60000, { "", "", -1 } },
+            { "30Rnd_65x39_caseless_green", "Munição 30rnd 6.5mm", 1500, { "", "", -1 } },
+            { "srifle_DMR_01_F", "Rifle 7.62m", 80000, { "", "", -1 } },
+            { "10Rnd_762x54_Mag", "Munição 10rnd 7.62mm", 2500, { "", "", -1 } },
+			{ "LMG_Mk200_F", "Fuzil LMG 6.5mm", 130000, { "", "", -1 } },
+			{ "200Rnd_65x39_cased_Box_Tracer", "Munição 200rnd 6.5mm", 7000, { "", "", -1 } },
+			{ "LMG_Zafir_F", "Fuzil LMG 7.62mm", 250000, { "", "", -1 } },
+			{ "150Rnd_762x54_Box_Tracer", "", 10000, { "", "", -1 } },
+			{ "arifle_MXC_F", "Fuzil 6.5mm", 55000, { "", "", -1 } },
+			{ "arifle_MX_F", "Fuzil 6.5mm", 55000, { "", "", -1 } },
+			{ "30Rnd_65x39_caseless_mag_Tracer", "Munição 30rnd 6.5mm", 2500, { "", "", -1 } },
+			{ "srifle_EBR_F", "Rifle 7.62", 125000, { "", "", -1 } },
+            { "20Rnd_762x51_Mag", "Munição 7.62mm", 3500, { "", "", -1 } },	
+			{ "bipod_01_F_blk", "Black Bipod", 35000, { "", "", -1 } },
+			{ "bipod_01_F_snd", "Desert Bipod", 35000, { "", "", -1 } },
+			{ "bipod_01_F_mtp", "Woodland Bipod", 35000, { "", "", -1 } },
+            { "acc_flashlight", "Lanterna", 500, { "", "", -1 } },
+            { "optic_ACO_grn", "Aco Verde", 2500, { "", "", -1 } },	
+            { "optic_Aco", "Aco", 2500, { "", "", -1 } },
+            { "optic_MRCO", "Mrco", 10000, { "", "", -1 } },	
+			{ "optic_Hamr", "Hamr", 10000, { "", "", -1 } },			
+            { "optic_Holosight", "Holosight", 8000, { "", "", -1 } },
+            { "optic_Arco", "Arco", 10000, { "", "", -1 } },		
+            { "acc_pointer_IR", "Laser", 500, { "", "", -1 } },
+            { "SmokeShell", "Granada de Fumaça", 1000, { "", "", -1 } },		
+            { "SmokeShellRed", "Granada de Fumaça Vermelha", 1000, { "", "", -1 } },
+            { "SmokeShellGreen", "Granada de Fumaça Verde", 1000, { "", "", -1 } },		
+            { "SmokeShellYellow", "Granada de Fumaça Amarela", 1000, { "", "", -1 } },
+            { "SmokeShellPurple", "Granada de Fumaça Roxo", 1000, { "", "", -1 } },		
+            { "SmokeShellOrange", "Granada de Fumaça Laranja", 1000, { "", "", -1 } }									
         };
     };
 	

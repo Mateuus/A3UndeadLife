@@ -9,8 +9,8 @@
 #define phatchback 22500
 #define pquadbike 2500
 #define poffroad 35000
-#define psuv 30000
-#define phatchbacksport 45000
+#define psuv 50000
+#define phatchbacksport 125000
 #define pkart 15000
 
 #define poffroadmed 10000
@@ -18,18 +18,16 @@
 #define pm900med 200000
 #define porcamed 500000
 
-#define pboxer 200000
-#define pzamaktrans 135000
-#define pzamakcov 250000
-#define phemtttrans 300000
-#define ptempesttrans 600000
-#define ptempestcov 750000
-#define phemttbox 600000
-#define ptempestdev 800000
-#define ftruck 300000
+#define pboxer 155000
+#define pzamaktrans 255000
+#define pzamakcov 312000
+#define phemtttrans 390000
+#define ptempesttrans 450000
+#define ptempestcov 550000
+#define ftruck 90000
 
 
-#define pifrit 700000
+#define pifrit 2000000
 #define p50cal 950000
 
 #define poffroadcop 35000
@@ -56,25 +54,74 @@
 
 #define pstrider 150000
 
-#define ifritvip1 500000
-#define ifritvip2 350000
-#define ifritvip3 300000
-#define ifritvip4 250000
-#define ifritvip5 200000
+#define ifritvip1 1000000
+#define ifritvip2 900000
+#define ifritvip3 800000
+#define ifritvip4 700000
+#define ifritvip5 600000
 
-#define huntervip1 475000
-#define huntervip2 375000
-#define huntervip3 250000
-#define huntervip4 175000
-#define huntervip5 100000
+#define huntervip3 1050000
+#define huntervip4 905000
+#define huntervip5 805000
 
-#define stridervip1 550000
-#define stridervip2 475000
-#define stridervip3 350000
-#define stridervip4 250000
-#define stridervip5 135000
+#define stridervip4 1100000
+#define stridervip5 935000
+
+#define poffroadvip1 30000
+#define poffroadvip2 25000
+#define poffroadvip3 20000
+#define poffroadvip4 15000
+#define poffroadvip5 10000
+
+#define psuvvip1 40000
+#define psuvvip2 35000
+#define psuvvip3 25000
+#define psuvvip4 15000
+#define psuvvip5 10000
+
+#define phatchbacksportvip1 105000
+#define phatchbacksportvip2 95000
+#define phatchbacksportvip3 75000
+#define phatchbacksportvip4 65000
+#define phatchbacksportvip5 45000
+
+#define pboxervip1 135000
+#define pboxervip2 120000
+#define pboxervip3 100000
+#define pboxervip4 80000
+#define pboxervip5 60000
+
+#define pzamaktransvip1 235000
+#define pzamaktransvip2 220000
+#define pzamaktransvip3 200000
+#define pzamaktransvip4 165000
+#define pzamaktransvip5 120600
+
+#define pzamakcovvip1 292000
+#define pzamakcovvip2 262000
+#define pzamakcovvip3 242000
+#define pzamakcovvip4 200000
+#define pzamakcovvip5 166000
+
+#define phemtttransvip1 370000
+#define phemtttransvip2 350000
+#define phemtttransvip3 320000
+#define phemtttransvip4 280000
+#define phemtttransvip5 230000
+
+#define ptempesttransvip1 420000
+#define ptempesttransvip2 390000
+#define ptempesttransvip3 360000
+#define ptempesttransvip4 310000
+#define ptempesttransvip5 280000
+
+#define phemttboxvip3 750000
+#define phemttboxvip4 650000
+#define phemttboxvip5 550000
 
 
+#define ptempestdevvip4 8000000
+#define ptempestdevvip5 650000
 
 /* End Vehicle Prices */
 
@@ -103,8 +150,14 @@ class CarShops {
 			{ "B_Quadbike_01_F", pquadbike, "" },
 			
 			{ "O_MRAP_02_F", ifritvip1,   "", { "life_donator",  1 } },
-			{ "B_MRAP_01_F", huntertvip1, "", { "life_donator",  1 } },
-			{ "I_MRAP_03_F", stridervip1, "", { "life_donator",  1 } }
+			{ "C_Hatchback_01_sport_F", phatchbacksportvip1,   "", { "life_donator",  1 } },
+			{ "C_SUV_01_F", psuvvip1,   "", { "life_donator",  1 } },
+			{ "C_Offroad_01_F", poffroadvip1,   "", { "life_donator",  1 } },
+			{ "C_Van_01_box_F", pboxervip1,   "", { "life_donator",  1 } },
+			{ "I_Truck_02_transport_F", pzamaktransvip1,   "", { "life_donator",  1 } },
+			{ "I_Truck_02_covered_F", pzamakcovvip1,   "", { "life_donator",  1 } },
+			{ "B_Truck_01_transport_F", phemtttransvip1,   "", { "life_donator",  1 } },
+			{ "I_Truck_02_covered_F", ptempesttransvip1,   "", { "life_donator",  1 } }		
 			
 		};
 	};
@@ -112,32 +165,51 @@ class CarShops {
 	class civ_vip_car_silver {
 		side = "civ_vip";
 		vehicles[] = {
-			
 			{ "O_MRAP_02_F", ifritvip2,   "", { "life_donator",  2 } },
-			{ "B_MRAP_01_F", huntertvip2, "", { "life_donator",  2 } },
-			{ "I_MRAP_03_F", stridervip2, "", { "life_donator",  2 } }
+			{ "C_Hatchback_01_sport_F", phatchbacksportvip2,   "", { "life_donator",  2 } },
+			{ "C_SUV_01_F", psuvvip2,   "", { "life_donator",  2 } },
+			{ "C_Offroad_01_F", poffroadvip2,   "", { "life_donator",  2 } },
+			{ "C_Van_01_box_F", pboxervip2,   "", { "life_donator",  2 } },
+			{ "I_Truck_02_transport_F", pzamaktransvip2,   "", { "life_donator",  2 } },
+			{ "I_Truck_02_covered_F", pzamakcovvip2,   "", { "life_donator",  2 } },
+			{ "B_Truck_01_transport_F", phemtttransvip2,   "", { "life_donator",  2 } },
+			{ "O_Truck_03_transport_F", ptempesttransvip2,   "", { "life_donator",  2 } }		
 			
 		};
 	};
 	
 	class civ_vip_car_gold {
 		side = "civ_vip";
-		vehicles[] = {
-			
+		vehicles[] = {		
 			{ "O_MRAP_02_F", ifritvip3,   "",   { "life_donator",  3 } },
-			{ "B_MRAP_01_F", huntertvip3, "",   { "life_donator",  3 } },
-			{ "I_MRAP_03_F", stridervip3, "",   { "life_donator",  3 } }
-			
+			{ "B_MRAP_01_F", huntervip3, "",   { "life_donator",  3 } },
+			{ "C_Hatchback_01_sport_F", phatchbacksportvip3,   "", { "life_donator",  3 } },
+			{ "C_SUV_01_F", psuvvip3,   "", { "life_donator",  3 } },
+			{ "C_Offroad_01_F", poffroadvip3,   "", { "life_donator",  3 } },
+			{ "C_Van_01_box_F", pboxervip3,   "", { "life_donator",  3 } },
+			{ "I_Truck_02_transport_F", pzamaktransvip3,   "", { "life_donator",  3 } },
+			{ "I_Truck_02_covered_F", pzamakcovvip3,   "", { "life_donator",  3 } },
+			{ "B_Truck_01_transport_F", phemtttransvip3,   "", { "life_donator",  3 } },
+			{ "O_Truck_03_transport_F", ptempesttransvip3,   "", { "life_donator",  3 } },
+			{ "B_Truck_01_box_F", phemttboxvip3,   "", { "life_donator",  3 } }
+		
 		};
 	};
 	
 	class civ_vip_car_platinum {
 		side = "civ_vip";
 		vehicles[] = {
-			
-		    { "O_MRAP_02_F", ifritvip4, "",   { "life_donator",  4 } },
-			{ "B_MRAP_01_F", huntertvip4, "", { "life_donator",  4 } },
-			{ "I_MRAP_03_F", stridervip4, "", { "life_donator",  4 } }
+			{ "O_MRAP_02_F", ifritvip4, "",   { "life_donator",  4 } },
+			{ "B_MRAP_01_F", huntervip4, "", { "life_donator",  4 } },
+			{ "I_MRAP_03_F", stridervip4, "", { "life_donator",  4 } },
+			{ "C_Offroad_01_F", poffroadvip4,   "", { "life_donator",  4 } },
+			{ "C_Van_01_box_F", pboxervip4,   "", { "life_donator",  4 } },
+			{ "I_Truck_02_transport_F", pzamaktransvip4,   "", { "life_donator",  4 } },
+			{ "I_Truck_02_covered_F", pzamakcovvip4,   "", { "life_donator",  4 } },
+			{ "B_Truck_01_transport_F", phemtttransvip4,   "", { "life_donator",  4 } },
+			{ "O_Truck_03_transport_F", ptempesttransvip4,   "", { "life_donator",  4 } },
+			{ "B_Truck_01_box_F", phemttboxvip4,   "", { "life_donator",  4 } },
+			{ "O_Truck_03_device_F", ptempestdevvip4,   "", { "life_donator",  4 } }
 			
 		};
 	};
@@ -145,24 +217,82 @@ class CarShops {
 	class civ_vip_car_diamante {
 		side = "civ_vip";
 		vehicles[] = {
-			
 			{ "O_MRAP_02_F", ifritvip5,   "", { "life_donator",  5 } },			
-			{ "B_MRAP_01_F", huntertvip5, "", { "life_donator",  5 } },			
-			{ "I_MRAP_03_F", stridervip5, "", { "life_donator",  5 } }
+			{ "B_MRAP_01_F", huntervip5, "", { "life_donator",  5 } },			
+			{ "I_MRAP_03_F", stridervip5, "", { "life_donator",  5 } },
+			{ "C_Offroad_01_F", poffroadvip5,   "", { "life_donator",  5 } },
+			{ "C_Van_01_box_F", pboxervip5,   "", { "life_donator",  5 } },    
+			{ "I_Truck_02_transport_F", pzamaktransvip5,   "", { "life_donator",  5 } },
+			{ "I_Truck_02_covered_F", pzamakcovvip5,   "", { "life_donator",  5 } },
+			{ "B_Truck_01_transport_F", phemtttransvip5,   "", { "life_donator",  5 } },
+			{ "O_Truck_03_transport_F", ptempesttransvip5,   "", { "life_donator",  5 } },
+			{ "B_Truck_01_box_F", phemttboxvip5,   "", { "life_donator",  5 } },
+			{ "O_Truck_03_device_F", ptempestdevvip5,   "", { "life_donator",  5 } }
 			
 		};
 	};
 	
-	class civ_vip_air {
+	class civ_vip_air_bronze {
 		side = "civ_vip";
 		vehicles[] = {
 			{ "C_Heli_Light_01_civil_F", pm900, "",  { "life_donator",  1 } },
 			{ "O_Heli_Light_02_unarmed_F", porcaciv, "",  { "life_donator",  1 } },
 			{ "O_Heli_Transport_04_fuel_F", ptarufuel, "",  { "life_donator",  1 } },
 			{ "O_Heli_Transport_04_box_F", ptarutrans, "",  { "life_donator",  1 } },
-			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } }
+			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", huron, "",  { "life_donator",  1 } }
 		};
 	};
+	
+	class civ_vip_air_silver {
+		side = "civ_vip";
+		vehicles[] = {
+			{ "C_Heli_Light_01_civil_F", pm900, "",  { "life_donator",  1 } },
+			{ "O_Heli_Light_02_unarmed_F", porcaciv, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_fuel_F", ptarufuel, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_box_F", ptarutrans, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", huron, "",  { "life_donator",  1 } }
+		};
+	};
+	
+	class civ_vip_air_gold {
+		side = "civ_vip";
+		vehicles[] = {
+			{ "C_Heli_Light_01_civil_F", pm900, "",  { "life_donator",  1 } },
+			{ "O_Heli_Light_02_unarmed_F", porcaciv, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_fuel_F", ptarufuel, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_box_F", ptarutrans, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", huron, "",  { "life_donator",  1 } }
+		};
+	};
+	
+	class civ_vip_air_platinum {
+		side = "civ_vip";
+		vehicles[] = {
+			{ "C_Heli_Light_01_civil_F", pm900, "",  { "life_donator",  1 } },
+			{ "O_Heli_Light_02_unarmed_F", porcaciv, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_fuel_F", ptarufuel, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_box_F", ptarutrans, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", huron, "",  { "life_donator",  1 } }
+		};
+	};
+	
+	class civ_vip_air_diamante {
+		side = "civ_vip";
+		vehicles[] = {
+			{ "C_Heli_Light_01_civil_F", pm900, "",  { "life_donator",  1 } },
+			{ "O_Heli_Light_02_unarmed_F", porcaciv, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_fuel_F", ptarufuel, "",  { "life_donator",  1 } },
+			{ "O_Heli_Transport_04_box_F", ptarutrans, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", mohawk, "",  { "life_donator",  1 } },
+			{ "I_Heli_Transport_02_F", huron, "",  { "life_donator",  1 } }
+		};
+	};
+	
+	
 	
 
 	
@@ -203,9 +333,8 @@ class CarShops {
 			{ "I_Truck_02_covered_F", pzamakcov, "trucking" },
 			{ "B_Truck_01_transport_F", phemtttrans, "trucking" },
 			{ "O_Truck_03_transport_F", ptempesttrans, "trucking" },
-			{ "O_Truck_03_covered_F", ptempestcov, "trucking" },
-			{ "B_Truck_01_box_F", phemttbox, "trucking" },
-			{ "O_Truck_03_device_F", ptempestdev, "trucking" }
+			{ "O_Truck_03_covered_F", ptempestcov, "trucking" }
+	
 		};
 	};
 
@@ -453,7 +582,7 @@ class CfgVehicles {
     };
 
 	class O_Truck_03_transport_F {
-        vItemSpace = 700;
+        vItemSpace = 650;
         price = ptempesttrans;
         storageFee[] = { 100, 0, 0, 0 };
         insurance = 2500;
@@ -541,7 +670,7 @@ class CfgVehicles {
     };
 
 	class B_Truck_01_box_F {
-        vItemSpace = 1000;
+        vItemSpace = 850;
         price = phemttbox;
         storageFee[] = { 500, 0, 0, 0 };
 		garageSell[] = { 150000, 0, 0, 0 };
@@ -757,7 +886,7 @@ class CfgVehicles {
     };
 
 	class O_Truck_03_covered_F {
-		vItemSpace = 900;
+		vItemSpace = 750;
 		price = ptempestcov;
 		storageFee[] = { 25000, 0, 0, 0 };
 		garageSell[] = { 65000, 0, 0, 0 };
@@ -804,7 +933,7 @@ class CfgVehicles {
     };
 
 	class C_SUV_01_F {
-        vItemSpace = 115;
+        vItemSpace = 75;
         price = psuv;
         storageFee[] = { 1000, 0, 0, 0 };
 		garageSell[] = { 15000, 7500, 0, 0 };
@@ -864,7 +993,7 @@ class CfgVehicles {
     };
 
 	class C_Van_01_box_F {
-        vItemSpace = 350;
+        vItemSpace = 250;
         price = pboxer;
         storageFee[] = { 1000, 0, 0, 0 };
 		garageSell[] = { 35000, 0, 0, 0 };
@@ -992,7 +1121,7 @@ class CfgVehicles {
     };
 	
 	class C_Van_01_fuel_F {
-        vItemSpace = 800;
+        vItemSpace = 150;
         price = ftruck;
         storageFee[] = { 5000, 0, 0, 0 };
 		garageSell[] = { 0, 0, 0, 0 };
