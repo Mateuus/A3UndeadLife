@@ -481,7 +481,7 @@ class Clothing {
 			{ "U_MillerBody", "ROUPA VIP V", 1250,{ "life_donator", "SCALAR", 5 } },
 			{ "U_Marshal", "ROUPA VIP V", 1650, { "life_donator", "SCALAR", 5 } },
 			{ "U_KerryBody", "ROUPA VIP V", 1735, { "life_donator", "SCALAR", 5 } },
-			{ "U_IG_leader", "ROUPA VIP V", 1700, { "life_donator", "SCALAR", 5 } },
+			{ "U_IG_leader", "ROUPA VIP V", 1701, { "life_donator", "SCALAR", 5 } },
 			{ "U_I_GhillieSuit", "ROUPA VIP V", 1700, { "life_donator", "SCALAR", 5 } },
 			{ "U_I_FullGhillie_ard", "ROUPA VIP V", 1700, { "life_donator", "SCALAR", 5 } },
 			{ "U_B_FullGhillie_lsh", "ROUPA VIP V", 1700, { "life_donator", "SCALAR", 5 } },
