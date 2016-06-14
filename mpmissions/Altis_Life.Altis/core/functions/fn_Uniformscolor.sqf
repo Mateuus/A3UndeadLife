@@ -40,7 +40,7 @@ if(playerSide == WEST) then {
 	};
 	
 	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 6)) then {
-	player setObjectTextureGlobal [0, "textures\cop\capital.jpg"]; //Capitão
+	player setObjectTextureGlobal [0, "textures\cop\capitao.jpg"]; //Capitão
 	};
 
 	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 7)) then {

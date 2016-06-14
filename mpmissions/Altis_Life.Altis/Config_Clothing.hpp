@@ -112,10 +112,8 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "Uniforme Padrao", 2500, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_BG_Guerilla3_2", "Working Uniform", 2500, { "life_coplevel", "SCALAR", 3 } },
-			{ "U_O_OfficerUniform_ocamo", "HighRanking Uniform", 2500, { "life_coplevel", "SCALAR", 5 } },
-			{ "U_O_SpecopsUniform_ocamo", "Roupa do Bope", 2500, { "life_swatlevel", "SCALAR", 1 } },
-			{ "U_B_Wetsuit", "", 2000, { "", "", -1 } }
+			{ "U_MillerBody", "Uniforme Oficial", 2500, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_O_SpecopsUniform_ocamo", "Farda do Bope", 2500, { "life_swatlevel", "SCALAR", 1 } }
 		};
 
 		headgear[] = {
