@@ -53,7 +53,7 @@ switch (FETCH_CONST(life_coplevel)) do {
 	{
 		player addHeadgear "H_Cap_police";
 		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\cop\recruta.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -69,7 +69,7 @@ switch (FETCH_CONST(life_coplevel)) do {
 	{
 		player addHeadgear "H_Cap_police";
 		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\cop\soldado.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -85,7 +85,7 @@ switch (FETCH_CONST(life_coplevel)) do {
 	{
 		player addHeadgear "H_Cap_police";
 		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\cop\cabo.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -101,7 +101,7 @@ switch (FETCH_CONST(life_coplevel)) do {
 	{
 		player addHeadgear "H_Cap_police";
 		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\cop\sargento.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -116,8 +116,8 @@ switch (FETCH_CONST(life_coplevel)) do {
 	case 5:
 	{
 		player addHeadgear "H_Cap_police";
-		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player ForceAddUniform "U_MillerBody";
+		player setObjectTextureGlobal [0, "textures\cop\tenente.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -132,8 +132,8 @@ switch (FETCH_CONST(life_coplevel)) do {
 	case 6:
 	{
 		player addHeadgear "H_Cap_police";
-		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player ForceAddUniform "U_MillerBody";
+		player setObjectTextureGlobal [0, "textures\cop\capital.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -148,8 +148,8 @@ switch (FETCH_CONST(life_coplevel)) do {
 	case 7:
 	{
 		player addHeadgear "H_Cap_police";
-		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player ForceAddUniform "U_MillerBody";
+		player setObjectTextureGlobal [0, "textures\cop\major.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -164,8 +164,8 @@ switch (FETCH_CONST(life_coplevel)) do {
 	case 8:
 	{
 		player addHeadgear "H_Cap_police";
-		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player ForceAddUniform "U_MillerBody";
+		player setObjectTextureGlobal [0, "textures\cop\tenentecoronel.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";
@@ -180,8 +180,8 @@ switch (FETCH_CONST(life_coplevel)) do {
 	case 9:
 	{
 		player addHeadgear "H_Cap_police";
-		player ForceAddUniform "U_Rangemaster";
-		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
+		player ForceAddUniform "U_MillerBody";
+		player setObjectTextureGlobal [0, "textures\cop\coronel.jpg"]; 
 		player addVest "V_TacVest_blk_POLICE";
 		player addMagazine "16Rnd_9x21_Mag";
 		player addMagazine "16Rnd_9x21_Mag";

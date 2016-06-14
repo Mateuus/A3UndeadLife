@@ -19,9 +19,49 @@ if(playerSide == WEST) then {
     	(unitbackpack player) setObjectTextureGlobal [0, ""]; 
 	};
 	
+	if((uniform player == "U_Rangemaster") && ( (FETCH_CONST(life_coplevel)) == 1)) then {
+	player setObjectTextureGlobal [0, "textures\cop\recruta.jpg"]; //Recruta
+	};
+	
+	if((uniform player == "U_Rangemaster") && ( (FETCH_CONST(life_coplevel)) == 2)) then {
+	player setObjectTextureGlobal [0, "textures\cop\soldado.jpg"]; //Soldado
+	};
+	
+	if((uniform player == "U_Rangemaster") && ( (FETCH_CONST(life_coplevel)) == 3)) then {
+	player setObjectTextureGlobal [0, "textures\cop\cabo.jpg"]; //Cabo
+	};
+	
+	if((uniform player == "U_Rangemaster") && ( (FETCH_CONST(life_coplevel)) == 4)) then {
+	player setObjectTextureGlobal [0, "textures\cop\sargento.jpg"]; //Sargento
+	};
+	
+	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 5)) then {
+	player setObjectTextureGlobal [0, "textures\cop\tenente.jpg"]; //Tenente
+	};
+	
+	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 6)) then {
+	player setObjectTextureGlobal [0, "textures\cop\capital.jpg"]; //Capitão
+	};
+
+	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 7)) then {
+	player setObjectTextureGlobal [0, "textures\cop\major.jpg"]; //Major
+	};
+	
+	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 8)) then {
+	player setObjectTextureGlobal [0, "textures\cop\tenentecoronel.jpg"]; //Tenente Coronel
+	};
+	
+	if((uniform player == "U_MillerBody") && ( (FETCH_CONST(life_coplevel)) == 9)) then {
+	player setObjectTextureGlobal [0, "textures\cop\coronel.jpg"]; //Coronel
+	};
+	
+	
+	
+	/*
 	if (uniform player == "U_Rangemaster") then {
 		player setObjectTextureGlobal [0, "textures\cadettroop.jpg"]; 
 	};
+	
 	// Cop Level 3 & 4
 	if (uniform player == "U_BG_Guerilla3_2") then {
 		player setObjectTextureGlobal [0, "textures\corptroop.jpg"]; 
@@ -29,10 +69,10 @@ if(playerSide == WEST) then {
 	// Cop Level 5 & 6 & 7
 	if (uniform player == "U_O_OfficerUniform_ocamo") then {
 		player setObjectTextureGlobal [0, "textures\capttroop.jpg"]; 
-	};
+	};*/
 	
 	if (uniform player == "U_O_SpecopsUniform_ocamo") then {
-		player setObjectTextureGlobal [0, "textures\swat.jpg"]; 
+		player setObjectTextureGlobal [0, "textures\bope\bope.jpg"]; 
 	};
 };
 
