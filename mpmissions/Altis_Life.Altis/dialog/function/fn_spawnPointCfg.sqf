@@ -64,6 +64,7 @@
                                     ];
                     };
 					
+					
 					/*if(FETCH_CONST(life_donator) > 0) then {
                     _return = [
 									["vip_spawn_1","Área VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]	
