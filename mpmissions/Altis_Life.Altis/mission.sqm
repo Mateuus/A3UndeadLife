@@ -94677,7 +94677,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=430;
+		items=431;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -98260,6 +98260,13 @@ class Mission
 			text="Área VIP";
 			type="mil_start";
 			colorName="ColorGreen";
+		};
+		class Item430
+		{
+			position[]={11735.206,22.833464,11842.064};
+			name="vip_spawn_1";
+			type="Empty";
+			angle=-59.772701;
 		};
 	};
 	class Sensors

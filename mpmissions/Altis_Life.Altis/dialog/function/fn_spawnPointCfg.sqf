@@ -33,6 +33,7 @@
                     //if have reb license, only spawn here
                     if(license_civ_rebel && playerSide == civilian) then {
                     _return = [
+									["vip_spawn_1","Área VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["reb_spawn_1","Zaros Bay Outpost","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["reb_spawn_2","Krya Nera Outpost","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 									["reb_spawn_3","Selakano Outpost","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -43,6 +44,7 @@
                     };
                     if(!license_civ_rebel && playerSide == civilian) then {
                     _return = [
+									["vip_spawn_1","Área VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["civ_spawn_5","Neochori !safe! ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 									["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
@@ -54,12 +56,20 @@
                     };
 					if(license_civ_law && playerSide == civilian) then {
                     _return = [
+									["vip_spawn_1","Área VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 									["law_spawn","Kavala University","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["law_spawn_1","Pyrgos University","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
                                     ["law_spawn_2","Athira University","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 
                                     ];
                     };
+					
+					/*if(FETCH_CONST(life_donator) > 0) then {
+                    _return = [
+									["vip_spawn_1","Área VIP","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]	
+									];
+					};*/
+					
 					if(count life_houses > 0) then {
 					{
 					_pos = call compile format["%1",_x select 0];

@@ -29,7 +29,7 @@ class Market
 		class Title: Life_RscText
 		{
 			idc = 1002;
-			text = "The Mecca Market"; //--- ToDo: Localize;
+			text = "Undead Brasil Market"; //--- ToDo: Localize;
 			x = 0.29375 * safezoneW + safezoneX;
 			y = 0.225 * safezoneH + safezoneY;
 			w = 0.4125 * safezoneW;
