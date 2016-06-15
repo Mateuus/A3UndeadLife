@@ -38,7 +38,6 @@ waitUntil {scriptDone _handle};
 if (playerSide == civilian) then {
 	life_gear set[16,[]];
 };
-life_deadGear = life_gear;
 
 life_hunger = 100;
 life_thirst = 100;
@@ -104,6 +103,8 @@ if(!isNull _killer && {_killer != _unit} && {side _killer != west} && {alive _ki
 		};
 	};
 };
+
+life_save_gear = [player] call life_fnc_fetchDeadGear;
 
 //Killed by cop stuff...
 if(side _killer == west && playerSide != west) then {
